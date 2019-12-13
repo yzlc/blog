@@ -1,0 +1,34 @@
+name: Hugo deployment
+
+on:
+  push:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.3.1
+      with:
+        hugo-version: 'latest'
+        extended: true
+
+    - name: get theme
+      run: |
+        mkdir themes
+        git clone --depth=1 https://github.com/vividvilla/ezhil.git ./themes/ezhil
+        
+    - name: Build
+      run: hugo --minify
+
+    - name: Deploy
+      run: source $GITHUB_WORKSPACE/ci/deploy.sh
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+        SERVER_ADDRESS: ${{ secrets.SERVER_ADDRESS }}
+        SERVER_DESTINATION: ${{ secrets.SERVER_DESTINATION_STAGING }}
+        SSH_PORT: ${{ secrets.SSH_PORT }}
+
