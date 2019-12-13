@@ -17,7 +17,6 @@ jobs:
 
     - name: get theme
       run: |
-        mkdir themes
         git clone --depth=1 https://github.com/vividvilla/ezhil.git ./themes/ezhil
         
     - name: Build
