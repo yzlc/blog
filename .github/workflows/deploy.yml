@@ -17,7 +17,7 @@ jobs:
 
     - name: get theme
       run: |
-        git clone --depth=1 https://github.com/vividvilla/ezhil.git ./themes/ezhil
+        git clone --depth=1 https://github.com/olOwOlo/hugo-theme-even ./themes/even
         
     - name: Build
       run: hugo --minify
