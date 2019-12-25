@@ -3,6 +3,7 @@ title: "linux服务器配置"
 date: 2019-08-20
 description: ""
 tags: [linux,vps]
+categories: [笔记]
 ---
 
 ### 登录配置

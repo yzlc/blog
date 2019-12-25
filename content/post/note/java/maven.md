@@ -3,8 +3,10 @@ title: "maven"
 date: 2019-09-09
 description: ""
 tags: [maven]
+categories: [笔记]
 ---
 
+[点击下载 settings.xml一键配置脚本](/files/note/java/maven.zip)
 ## pom
 ```
 <properties>

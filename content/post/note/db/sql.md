@@ -1,8 +1,9 @@
 ---
-title: "数据库"
+title: "数据库常用sql"
 date: 2019-12-02
 description: ""
 tags: [sql]
+categories: [笔记]
 ---
 
 ### 建表

@@ -2,7 +2,9 @@
 title: "v2ray"
 date: 2019-09-17
 description: ""
-tags: [v2ray]
+keywords: [v2ray,namesilo,cloudflare]
+tags: [v2ray,namesilo,cloudflare]
+categories: [笔记]
 ---
 
 ## 注册域名[namesilo](https://www.namesilo.com/)

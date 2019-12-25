@@ -3,6 +3,7 @@ title: "consul命令"
 date: 2019-10-08
 description: ""
 tags: [consul]
+categories: [配置]
 ---
 
 ## linux

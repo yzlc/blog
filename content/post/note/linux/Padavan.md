@@ -3,6 +3,7 @@ title: "Padavan"
 date: 2019-10-08
 description: ""
 tags: [Padavan]
+categories: [笔记]
 ---
 
 [Padavan](https://www.right.com.cn/forum/thread-161324-1-1.html)

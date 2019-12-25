@@ -1,8 +1,9 @@
 ---
-title: "ibatis"
+title: "ibatis配置"
 date: 2019-12-02
 description: ""
 tags: [ibatis]
+categories: [笔记]
 ---
 
 ### 批量merge

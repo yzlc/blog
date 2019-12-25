@@ -175,8 +175,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   [params.reward]                                         # 文章打赏
     enable = true
-    wechat = "/reward/wechat.jpg"           # 微信二维码
-    alipay = "/reward/alipay.jpg"           # 支付宝二维码
+    wechat = "/images/reward/wechat.jpg"           # 微信二维码
+    alipay = "/images/reward/alipay.jpg"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
     a-email = "mailto:yzlc233@outlook.com"

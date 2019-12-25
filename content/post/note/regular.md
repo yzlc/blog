@@ -1,8 +1,9 @@
 ---
-title: "正则"
+title: "正则表达式"
 date: 2019-08-26
 description: ""
-tags: [正则]
+tags: [正则表达式]
+categories: [笔记]
 ---
 
 ## 匹配行

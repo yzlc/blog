@@ -1,11 +1,13 @@
 ---
-title: "aria2"
+title: "aria2一键安装脚本"
 date: 2019-08-20
 description: ""
 tags: [aria2]
+categories: [配置]
 ---
 
-## [aria2](https://github.com/aria2/aria2/releases)
+[点击下载](/files/config/windows/aria2.zip)
+## 说明
 ### aria2.conf
 >配置文件
 ### aria2.session
@@ -13,4 +15,4 @@ tags: [aria2]
 ### startup.vbs
 >运行aria2
 ### run.ps1
->下载aria2c.exe,添加开机启动项,运行aria2
+>运行脚本：下载aria2c.exe,添加开机启动项,运行aria2

@@ -3,6 +3,7 @@ title: "Windows环境配置"
 date: 2019-08-20
 description: ""
 tags: [Windows]
+categories: [配置]
 ---
 
 ## git([菜鸟教程](http://www.runoob.com/w3cnote/git-guide.html))

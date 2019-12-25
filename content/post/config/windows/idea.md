@@ -3,6 +3,7 @@ title: "idea配置"
 date: 2019-08-20
 description: ""
 tags: [idea]
+categories: [配置]
 ---
 
 ## Help
@@ -67,4 +68,3 @@ Task Management
 UI Designer
 YAML support
 ```
-## maven下载源码才能搜索到

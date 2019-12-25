@@ -3,6 +3,7 @@ title: "Java"
 date: 2019-12-02
 description: ""
 tags: [Java]
+categories: [笔记]
 ---
 
 ## 常用命令

@@ -3,6 +3,7 @@ title: "linux"
 date: 2019-08-20
 description: ""
 tags: [linux]
+categories: [笔记]
 ---
 
 ## [命令大全](http://man.linuxde.net/)
