@@ -11,7 +11,7 @@ categories: [配置]
 #### ssh
 `ssh-keygen -t rsa -C "yzlc@email.com"`
 #### http
-```
+```bash
 #1. 新增配置文件
 cd ~
 vim .git-credentials
@@ -24,7 +24,7 @@ http://username:password@github.com
 git config --global credential.helper store
 ```
 ### proxy
-```
+```bash
 git config --global http.proxy socks5://127.0.0.1:1080
 git config --global https.proxy socks5://127.0.0.1:1080
 

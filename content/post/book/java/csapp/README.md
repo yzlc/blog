@@ -3,6 +3,7 @@ title: "CS:APP"
 date: 2019-08-20
 description: ""
 tags: [CS:APP]
+categories: [阅读]
 ---
 
 ## 1 计算机系统漫游
@@ -257,7 +258,7 @@ TMin_w, & x=TMin_w \\
 - PC-relative：将目标指令的地址与紧跟在跳转指令后面那条指令的地址之间的差作为编码
 #### 3.6.5 用条件控制来实现条件分支
 C：
-```
+```c
 if(test-expr)
     then-statement
 else
@@ -280,7 +281,7 @@ done:
 #### 3.6.7 循环
 1. do-while
     C：
-    ```
+    ```c
     do
         body-statement
         while(test-expr);
@@ -295,7 +296,7 @@ done:
     ```
 2. while
     C：
-    ```
+    ```c
     while(test-expr)
             body-statement
     ```
@@ -324,7 +325,7 @@ done:
     ```
 3. for
     C：
-    ```
+    ```c
     for(init-expr;test-expr;update-expr)
         body-statement
     ```

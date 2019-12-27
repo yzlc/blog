@@ -7,7 +7,7 @@ categories: [笔记]
 ---
 
 ### 建表
-```
+```sql
 CREATE INDEX idx_table_name_column_name ON table_name(column_name);
 CREATE UNIQUE INDEX idx_table_name_column_name ON table_name(column_name);
 CREATE sequence seq_table_name;
@@ -15,23 +15,27 @@ COMMENT ON TABLE table_name IS 'table_name';
 COMMENT ON COLUMN table_name.column_name IS 'column_name';
 ```
 ### 修改表
-```
+```sql
 DROP sequence seq_name;
 ALTER TABLE table_name ADD (column_name datatype,column_name datatype);
 ALTER TABLE table_name MODIFY (column_name datatype,column_name datatype);
 ALTER TABLE table_name DROP (column_name,column_name);
 ```
 ### 复制表
-`CREATE TABLE NEW_TAB AS SELECT * FROM OLD_TAB WHERE 1=1; -- WHERE 1=0 不复制数据`
-### 查表
-`select seq_name.NextVal as id from dual;`
-### 授权
+```sql
+CREATE TABLE NEW_TAB AS SELECT * FROM OLD_TAB WHERE 1=1; -- WHERE 1=0 不复制数据
 ```
+### 查表
+```sql
+select seq_name.NextVal as id from dual;
+```
+### 授权
+```sql
 grant select on table to user;
 grant execute on function to user;
 ```
 ### 存储过程
-```
+```sql
 create procedure sync_table_from_user is
     v_err varchar(2000);
 begin
@@ -46,7 +50,7 @@ EXCEPTION
 end;
 ```
 ### 触发器
-```
+```sql
 create trigger TG_TABLE_LOG
     before update
     on TABLE
@@ -58,7 +62,7 @@ BEGIN
 END;
 ```
 ### 定时任务
-```
+```sql
 declare
     job number;
 BEGIN
@@ -78,7 +82,7 @@ begin
 end;
 ```
 ### dblink
-```
+```sql
 CREATE public database link test_link CONNECT TO user IDENTIFIED BY "pwd"
 using '(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 127.0.0.1)(PORT = 1521)) ) (CONNECT_DATA = (SERVICE_NAME = LEE) ) )'; 
 
@@ -86,7 +90,7 @@ select * from table@test_link;
 drop public database link TEST_LINK;
 ```
 ### char varchar nchar nvarchar
-```
+```sql
 char 定长
 varchar 变长
 char、varchar 英文、数字
@@ -104,7 +108,7 @@ nchar、nvarchar 中文
 3. 查询时，用`bitand(id,result_id)>0`
 
 ### 多行合并
-```
+```sql
 SELECT listagg (T .ENAME, ',') WITHIN GROUP (ORDER BY T .ENAME) names
 FROM SCOTT.EMP T
 ```

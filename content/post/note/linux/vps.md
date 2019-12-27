@@ -14,7 +14,7 @@ categories: [笔记]
 3. ssh登录  
 `ssh -p port user@host`
 ### 安装工具包
-```
+```bash
 yum -y update && yum -y upgrade
 yum -y install wget
 yum -y install vim
@@ -22,7 +22,7 @@ yum -y install zip unzip
 ```
 ### vim配置
 - `vim /root/.vimrc`
-```
+```bash
 #设置tab分隔符为4个空格
 set tabstop=4
 #解决中文乱码的设置
@@ -32,7 +32,7 @@ set encoding=prc
 ### 修改时区
 `timedatectl set-timezone Asia/Shanghai`
 ### SS
-```
+```bash
 #安装
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh && chmod +x shadowsocks-all.sh && ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 
@@ -46,7 +46,7 @@ wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.
 /etc/shadowsocks-python/config.json
 ```
 ### BBR
-```
+```bash
 #安装
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 
@@ -54,7 +54,7 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 `sysctl net.ipv4.tcp_available_congestion_control`
 ```
 ### mysql
-```
+```bash
 #安装
 wget 'https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm'
 sudo yum -y install mysql-community-server
@@ -76,7 +76,7 @@ collation-server =  utf8_bin #区分大小写
 collation-server = utf8_unicode_ci #比 utf8_general_ci 更准确
 ```
 1. 授权任何主机连接
-```
+```bash
 mysql -u 用户名 -p
 GRANT ALL PRIVILEGES ON *.- TO '用户名'@'%' IDENTIFIED BY '密码' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
@@ -97,7 +97,7 @@ FLUSH PRIVILEGES;
 `git clone ssh://git@server:port/srv/sample.git`
 ### consul
 1. 下载
-```
+```bash
 wget https://releases.hashicorp.com/consul/1.4.2/consul_1.4.2_linux_amd64.zip
 unzip consul_1.4.2_linux_amd64.zip
 ```
@@ -105,17 +105,17 @@ unzip consul_1.4.2_linux_amd64.zip
 `./consul agent -dev > consul.log 2>&1 &`
 ### rabbitmq
 1. 下载脚本
-```
+```bash
 curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash
 curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.rpm.sh | sudo bash
 ```
 2. 安装
-```
+```bash
 yum  -y install erlang
 yum -y install rabbitmq-server
 ```
 3. 命令
-```
+```bash
 #启动服务
 systemctl start rabbitmq-server
 
@@ -126,7 +126,7 @@ systemctl status rabbitmq-server
 systemctl enable rabbitmq-server
 ```
 4. 添加用户并授权
-```
+```bash
 #添加用户
 rabbitmqctl add_user admin admin
 
@@ -142,7 +142,7 @@ rabbitmqctl  set_permissions -p "/" admin '.*' '.*' '.*'
 rabbitmqctl list_user_permissions admin
 ```
 5. 配置用户远程访问
-```
+```bash
 #修改配置文件
 vi /etc/rabbitmq/rabbitmq.config 
 
@@ -155,14 +155,14 @@ vi /etc/rabbitmq/rabbitmq.config
 `systemctl restart rabbitmq-server`
 ### redis
 1. 安装
-```
+```bash
 wget http://download.redis.io/releases/redis-5.0.3.tar.gz
 tar xzf redis-5.0.3.tar.gz
 cd redis-5.0.3
 make
 ```
 2. 配置
-```
+```bash
 #修改配置文件
 vi ./redis.conf
 

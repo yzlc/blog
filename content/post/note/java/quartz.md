@@ -17,7 +17,7 @@ categories: [笔记]
 1. 下载[最新稳定版本](http://www.quartz-scheduler.org/downloads/)
 2. 解压安装包。将lib/目录下的quartz-xxx.jar（其中xxx是版本号）放在应用的classpath下
 3. 在classpath下创建名为quartz.properties的配置文件。基本配置如下:
-```
+```properties
 #调度程序的名称
 org.quartz.scheduler.instanceName = MyScheduler
 #线程池中有3个线程，这意味着最多可以同时运行3个job
@@ -27,7 +27,7 @@ org.quartz.jobStore.class = org.quartz.simpl.RAMJobStore
 ```
 4. 启动示例应用程序。下面的示例代码，获取scheduler实例对象，启动，然后关闭。  
 QuartzTest.java
-```
+```java
 import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
 import org.quartz.impl.StdSchedulerFactory;
@@ -67,7 +67,7 @@ public class QuartzTest {
 - Scheduler被创建后，可以增加、删除和列举Job和Trigger，以及执行其它与调度相关的操作（如暂停Trigger）
 - Scheduler只有在调用start()方法后，才会真正地触发trigger（即执行job）
 - 代码片段
-```
+```java
 // Grab the Scheduler instance from the Factory
 Scheduler scheduler = StdSchedulerFactory.getDefaultScheduler();
 
@@ -81,7 +81,7 @@ scheduler.shutdown();
 >JobDetail - Job实例所包含的属性
 
 - Job接口：
-```
+```java
 package org.quartz;
 
 public interface Job {
@@ -91,7 +91,7 @@ public void execute(JobExecutionContext context)
 }
 ```
 - 代码片段
-```
+```java
 // define the job and tie it to our HelloJob class
 JobDetail job = newJob(HelloJob.class)
   .withIdentity("myJob", "group1") // name "myJob", group "group1"
@@ -110,7 +110,7 @@ Trigger trigger = newTrigger()
 sched.scheduleJob(job, trigger);
 ```
 - 定义作业类“HelloJob”：
-```
+```java
 public class HelloJob implements Job {
 
     public HelloJob() {
@@ -135,7 +135,7 @@ SimpleTrigger：在具体的时间点执行一次，或者在具体的时间点�
         - 格式：`"Seconds Minutes Hours Day-of-Month Month Day-of-Week Year"`
         - 示例(每5分钟触发一次):`"0 0/5 - - - ?"`
     - 代码片段
-    ```
+    ```java
     trigger = newTrigger()
       .withIdentity("trigger3", "group1")
       .withSchedule(cronSchedule("0 0/2 8-17 - - ?"))
@@ -176,7 +176,7 @@ SimpleTrigger：在具体的时间点执行一次，或者在具体的时间点�
 ### TerracottaJobStore
 提供了一种不需要使用数据的可伸缩，健壮的方案，而不使用数据库
 - 配置:
-```
+```properties
 org.quartz.jobStore.class = org.terracotta.quartz.TerracottaJobStore
 org.quartz.jobStore.tcConfigUrl = localhost:9510
 ```

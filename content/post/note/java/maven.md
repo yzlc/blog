@@ -8,7 +8,7 @@ categories: [笔记]
 
 [点击下载 settings.xml一键配置脚本](/files/note/java/maven.zip)
 ## pom
-```
+```xml
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 </properties>
@@ -157,3 +157,4 @@ categories: [笔记]
         </properties>
     </profile>
 </profiles>
+```

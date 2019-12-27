@@ -8,7 +8,7 @@ categories: [配置]
 
 ## Help
 - Edit Custom VM Options...
-```
+```properties
 -Dfile.encoding=UTF-8
 -Dsun.jnu.encoding=UTF-8
 -Xverify:none
@@ -17,7 +17,7 @@ categories: [配置]
 ### Editor
 - File and Code Templates
    - Files-->Class
-      ```    
+      ```java
       /**
        - @author ${USER}
        */

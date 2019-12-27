@@ -3,10 +3,11 @@ title: "Effective Java"
 date: 2019-08-20
 description: ""
 tags: [Java]
+categories: [阅读]
 ---
 
 ## 1. 考虑使用静态工厂方法替代构造方法
-```
+```java
 public static Boolean valueOf(boolean b) {
   return b ? Boolean.TRUE : Boolean.FALSE;
 }
@@ -21,7 +22,7 @@ public static Boolean valueOf(boolean b) {
 - 没有公共或受保护构造方法的类不能被子类化(Collections)
 - 程序员很难找到它们
 ## 2. 当构造方法参数过多时使用 builder 模式
-```
+```java
 // Builder Pattern
 public class NutritionFacts {
     private final int calories;
@@ -42,7 +43,7 @@ public class NutritionFacts {
 }
 ```
 ## 3. 使用私有构造方法或枚举类实现 Singleton 属性
-```
+```java
 // Singleton with static factory
 // 1.防范AccessibleObject.setAccessible：修改构造函数
 // 2.implements Serializable：声明实例属性transient，并提供readResolve方法
@@ -63,7 +64,7 @@ public enum Elvis {
 ## 4. 使用私有构造方法执行非实例化
 - Java8，可以放接口中
 ## 5. 依赖注入优于硬连接资源（hardwiring resources）
-```
+```java
 // Dependency injection provides flexibility and testability
 public class SpellChecker {
   private final Lexicon dictionary;
@@ -73,7 +74,7 @@ public class SpellChecker {
 }
 ```
 ## 6. 避免创建不必要的对象
-```
+```java
 // Performance can be greatly improved!
 static boolean isRomanNumeral(String s) {
   return s.matches("^(?=.)M*(C[MD]|D?C{0,3})"
@@ -143,7 +144,7 @@ public class RomanNumerals {
         - TreeSet：调用compareTo方法 集合中一个元素
 ### 写法
 在compareTo方法中使用关系运算符「<」和「>」是冗长且容易出错的，不推荐
-```
+```java
 // Multiple-field `Comparable` with primitive fields
 public int compareTo(PhoneNumber pn) {
   int result = [Short.compare(areaCode](http://Short.compare(areaCode), pn.areaCode);
@@ -166,7 +167,7 @@ public int compareTo(PhoneNumber pn) {
 ```
 ## 15. 使类和成员的可访问性最小化
 - 类具有公共静态final数组属性，或返回这样一个属性的访问器是错误的
-```
+```java
 // Potential security hole!
 public static final Thing[] VALUES = { ... };
 
@@ -200,7 +201,7 @@ String、基本类型包装类、BigInteger、BigDecimal
 ### 缺点
 - 对于每个不同的值都需要一个单独的对象
 ### 实现
-```
+```java
 // Immutable class with static factories instead of constructors
 public class Complex {
   private final double re;
