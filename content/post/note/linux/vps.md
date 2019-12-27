@@ -1,7 +1,8 @@
 ---
 title: "linux服务器配置"
 date: 2019-08-20
-description: ""
+description: "linux服务器配置"
+keywords: [vps,linux服务器,服务器配置]
 tags: [linux,vps]
 categories: [笔记]
 ---

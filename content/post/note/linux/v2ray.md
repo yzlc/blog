@@ -1,8 +1,8 @@
 ---
 title: "v2ray"
 date: 2019-09-17
-description: ""
-keywords: [v2ray,namesilo,cloudflare]
+description: "centos7安装v2ray"
+keywords: [v2ray,namesilo,cloudflare,centos7]
 tags: [v2ray,namesilo,cloudflare]
 categories: [笔记]
 ---

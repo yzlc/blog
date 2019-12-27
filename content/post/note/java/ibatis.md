@@ -1,7 +1,8 @@
 ---
 title: "ibatis配置"
 date: 2019-12-02
-description: ""
+description: "ibatis配置"
+keywords : ["ibatis配置"]
 tags: [ibatis]
 categories: [笔记]
 ---

@@ -1,7 +1,8 @@
 ﻿---
 title: "idea配置"
 date: 2019-08-20
-description: ""
+description: "idea配置"
+keywords : ["idea配置"]
 tags: [idea]
 categories: [配置]
 ---

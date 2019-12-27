@@ -1,7 +1,8 @@
 ---
-title: "linux"
+title: "linux常用命令"
 date: 2019-08-20
-description: ""
+description: "linux常用命令"
+keywords : ["linux常用命令"]
 tags: [linux]
 categories: [笔记]
 ---

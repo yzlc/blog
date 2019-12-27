@@ -1,7 +1,8 @@
 ---
 title: "Windows环境配置"
 date: 2019-08-20
-description: ""
+description: "Windows环境配置"
+keywords : ["Windows环境配置"]
 tags: [Windows]
 categories: [配置]
 ---

@@ -1,7 +1,8 @@
 ---
 title: "consul命令"
 date: 2019-10-08
-description: ""
+description: "consul Linux/Windows命令"
+keywords : ["consul命令"]
 tags: [consul]
 categories: [配置]
 ---

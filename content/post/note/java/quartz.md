@@ -1,7 +1,8 @@
 ---
-title: "quartz"
+title: "quartz配置"
 date: 2019-08-20
-description: ""
+description: "quartz配置教程"
+keywords : ["quartz配置教程"]
 tags: [quartz]
 categories: [笔记]
 ---

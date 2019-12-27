@@ -1,7 +1,8 @@
 ---
 title: "maven"
 date: 2019-09-09
-description: ""
+description: "maven配置"
+keywords : ["maven配置"]
 tags: [maven]
 categories: [笔记]
 ---
