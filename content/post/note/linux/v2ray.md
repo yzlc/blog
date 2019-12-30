@@ -15,7 +15,7 @@ categories: [笔记]
 ### DNS
 1. 添加A记录，输入vps的ip
 2. `status`点击为`dns only`状态（不然caddy不能自动创建tls加密）
-* ip被封处理（vps操作完之后）
+- ip被封处理（vps操作完之后）
 1. `status`点亮
 2. `crypto`处把ssl状态改为full
 ## vps操作
@@ -69,5 +69,5 @@ categories: [笔记]
             }
         ]
         }
-* service v2ray start
-* service v2ray status
+- service v2ray start
+- service v2ray status

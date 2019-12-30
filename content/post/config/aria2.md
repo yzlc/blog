@@ -7,7 +7,7 @@ tags: [aria2]
 categories: [配置]
 ---
 
-[点击下载](/files/config/windows/aria2.zip)
+[点击下载](/files/config/aria2.zip)
 ## 说明
 ### aria2.conf
 >配置文件

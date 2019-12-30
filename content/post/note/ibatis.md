@@ -7,7 +7,7 @@ tags: [ibatis]
 categories: [笔记]
 ---
 
-### 批量merge
+## 批量merge
 1. 参数做判断，需要传入map
 ```xml
 <statement id="merge" parameterClass="map">
@@ -23,12 +23,12 @@ categories: [笔记]
 <iterate open="begin" close=";end;" conjunction=";">
     merge into... #list[].id#
 ```
-### 集合字段映射
+## 集合字段映射
 ```xml
 <resultMap class="" id="queryResult">
     <result property="ids" column="id" select="queryIds"/>
 </resultMap>
 ```
-## mybatis
-### Invalid bound statement (not found)
+## 常见错误
+* Invalid bound statement (not found)  
 只有Mapper结尾的xml文件才会被Mybatis扫描到

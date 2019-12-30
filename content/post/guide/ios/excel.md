@@ -14,7 +14,7 @@ categories: [教程]
 ![](/images/guide/ios/excel/2.jpg)
 ## 4. 选择wps
 ![](/images/guide/ios/excel/6.jpg)
-* 如果没有:
+- 如果没有:
     1. 滑到右边,选择更多  
     ![](/images/guide/ios/excel/3.jpg)
     2. 向下滑动找到wps,按住下图按钮  

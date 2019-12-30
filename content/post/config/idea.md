@@ -12,7 +12,6 @@ categories: [配置]
 ```properties
 -Dfile.encoding=UTF-8
 -Dsun.jnu.encoding=UTF-8
--Xverify:none
 ```
 ## Settings
 ### Editor
@@ -20,7 +19,7 @@ categories: [配置]
    - Files-->Class
       ```java
       /**
-       - @author ${USER}
+       * @author ${USER}
        */
       ```
 - File Types

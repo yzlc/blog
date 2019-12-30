@@ -153,7 +153,7 @@ SimpleTrigger：在具体的时间点执行一次，或者在具体的时间点�
 - 优点:所有数据保存在数据库中
 - 缺点:配置比RAMJobStore复杂，而且也不是那么快
 - 使用:
-    - 创建数据库表。在Quartz发行版的“docs / dbTables”目录中有SQL脚本[点击下载 quartz-1.7.2.sql](/files/note/java/quartz-1.7.2.sql)。
+    - 创建数据库表。在Quartz发行版的“docs / dbTables”目录中有SQL脚本[点击下载 quartz-1.7.2.sql](/files/note/quartz-1.7.2.sql)。
         - QRTZ_CALENDARS: 存储Calendar信息
         - QRTZ_CRON_TRIGGERS: 存储Cron表达式和时区信息 
         - QRTZ_FIRED_TRIGGERS: 存储与已触发的Trigger相关的状态信息，以及相联Job的执行信息

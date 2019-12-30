@@ -8,7 +8,7 @@ categories: [配置]
 ---
 
 ## 编码问题
-### bin/catalina.bat
+* bin/catalina.bat  
 加入`SET CATALINA_OPTS=-Dfile.encoding=UTF-8`
-### conf/server.xml
+* conf/server.xml  
 在`<Connector port="8080"...`中加入` URIEncoding="UTF-8"`
