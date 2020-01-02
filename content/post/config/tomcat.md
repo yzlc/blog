@@ -1,8 +1,6 @@
 ---
-title: "Tomcat配置"
+title: "tomcat"
 date: 2019-12-25T09:08:26+08:00
-description: tomcat配置
-keywords: [tomcat配置]
 tags: [tomcat]
 categories: [配置]
 ---

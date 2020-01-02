@@ -1,8 +1,6 @@
 ---
-title: "Git"
-date: 2019-12-30T15:19:25+08:00
-keywords: [git配置]
-description: ""
+title: "git"
+date: 2019-05-30T15:19:25+08:00
 tags: [git]
 categories: [配置]
 ---

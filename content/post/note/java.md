@@ -1,9 +1,7 @@
 ---
-title: "Java"
-date: 2019-12-02
-description: "Java"
-keywords : ["Java"]
-tags: [Java]
+title: "java"
+date: 2019-04-01T10:32:33+08:00
+tags: [java]
 categories: [笔记]
 ---
 

@@ -1,10 +1,8 @@
 ---
-title: "Windows优化"
+title: "windows"
 date: 2019-08-20T15:42:10+08:00
-description: ""
-keywords : ["Windows优化"]
-tags: [Windows]
-categories: [优化]
+tags: [windows]
+categories: [配置]
 ---
 
 - 磁盘碎片整理：关闭

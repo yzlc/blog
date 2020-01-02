@@ -1,14 +1,13 @@
 ---
-title: "aria2一键安装脚本"
-date: 2019-08-20
-description: "aria2一键安装脚本"
-keywords : ["aria2脚本"]
+title: "aria2"
+date: 2019-07-18T10:32:33+08:00
 tags: [aria2]
 categories: [配置]
 ---
 
+## 下载地址
 [点击下载](/files/config/aria2.zip)
-## 说明
+## 脚本说明
 ### aria2.conf
 >配置文件
 ### aria2.session

@@ -1,10 +1,8 @@
 ---
-title: "Nginx"
-date: 2019-12-30T15:40:23+08:00
-keywords: []
-description: ""
-tags: []
-categories: []
+title: "nginx"
+date: 2019-08-30T15:40:23+08:00
+tags: [nginx]
+categories: [命令]
 ---
 
 ## 命令

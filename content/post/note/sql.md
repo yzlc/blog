@@ -1,8 +1,6 @@
 ---
 title: "数据库常用sql"
-date: 2019-12-02
-description: "数据库常用sql"
-keywords : ["数据库常用sql"]
+date: 2019-05-04T10:32:33+08:00
 tags: [sql]
 categories: [笔记]
 ---
