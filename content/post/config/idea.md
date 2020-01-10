@@ -5,6 +5,12 @@ tags: [idea]
 categories: [配置]
 ---
 
+## 设置同步
+1. File - Settings Repository
+2. Upstream URL:  
+`https://github.com/yzlc/jetbrainsSettings.git`
+3. Overwrite Local
+
 ## Help
 - Edit Custom VM Options...
 ```properties
