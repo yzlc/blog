@@ -11,8 +11,14 @@ categories: [软件]
 - [7z](https://sparanoid.com/lab/7z/download.html)
 - [git](https://git-scm.com/downloads)
 - [vscode](https://code.visualstudio.com/docs/?dv=winzip)
+- [aria2](/files/soft/aria2.zip)
+  - aria2.conf：配置文件
+  - aria2.session：任务保存文件
+  - startup.vbs：运行aria2
+  - run.ps1(运行脚本)：下载aria2c.exe,添加开机启动项,运行aria2
 
 ## 工具软件
+- [Xshell](/files/soft/Xshell.7z)
 - [teamViewer](https://dl.tvcdn.de/download/TeamViewerPortable.zip)
 - [tim](https://office.qq.com/download.html)
 - [rufus](https://github.com/pbatard/rufus/releases)
@@ -38,8 +44,13 @@ categories: [软件]
   - password:  
     `xs374ca`
 - [oracle客户端11.2](https://www.oracle.com/webapps/redirect/signon?nexturl=https://download.oracle.com/otn/nt/instantclient/11204/instantclient-basic-windows.x64-11.2.0.4.0.zip)
+- [jdgui](/files/soft/jdgui.zip)
 - [sqlDeveloper](https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html)
 - [consul](https://www.consul.io/downloads.html)
+  - linux命令  
+    `nohup ./consul agent -dev -ui -node=consul-dev -client=172.0.0.1 >/dev/null &`
+  - windows命令  
+    `consul agent -dev`
 - [soapui](http://smartbearsoftware.com/distrib/soapui/3.0.1/soapui-3.0.1-windows-bin.zip)
 - [charles](https://www.charlesproxy.com/latest-release/download.do#)
   - Registered Name：  
