@@ -13,3 +13,8 @@ categories: [配置]
     `C:\Users\yzlc2\soft\instantclient_11_2\oci.dll`
 - Logon History
   - [x] Store with password
+- Other
+  - Updates
+    - [x] Never
+  - News
+    - [x] Never

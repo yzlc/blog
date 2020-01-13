@@ -36,7 +36,7 @@ categories: [软件]
 - [jdk8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [tomcat7](https://tomcat.apache.org/download-70.cgi)
 - [svn](https://tortoisesvn.net/downloads.html)
-- [plsql](https://www.allroundautomations.com/registered-plsqldev/)
+- [plsql 11](https://www.allroundautomations.com/registered-plsqldev/)
   - product code：  
     `4vkjwhfeh3ufnqnmpr9brvcuyujrx3n3le`
   - serial Number：  
