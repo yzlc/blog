@@ -13,6 +13,7 @@ CREATE sequence seq_table_name;
 COMMENT ON TABLE table_name IS 'table_name';
 COMMENT ON COLUMN table_name.column_name IS 'column_name';
 ```
+
 ### 修改表
 ```sql
 DROP sequence seq_name;
@@ -20,19 +21,23 @@ ALTER TABLE table_name ADD (column_name datatype,column_name datatype);
 ALTER TABLE table_name MODIFY (column_name datatype,column_name datatype);
 ALTER TABLE table_name DROP (column_name,column_name);
 ```
+
 ### 复制表
 ```sql
 CREATE TABLE NEW_TAB AS SELECT * FROM OLD_TAB WHERE 1=1; -- WHERE 1=0 不复制数据
 ```
+
 ### 查表
 ```sql
 select seq_name.NextVal as id from dual;
 ```
+
 ### 授权
 ```sql
 grant select on table to user;
 grant execute on function to user;
 ```
+
 ### 存储过程
 ```sql
 create procedure sync_table_from_user is
@@ -48,6 +53,7 @@ EXCEPTION
         rollback;
 end;
 ```
+
 ### 触发器
 ```sql
 create trigger TG_TABLE_LOG
@@ -60,6 +66,7 @@ BEGIN
     values (:old.id);
 END;
 ```
+
 ### 定时任务
 ```sql
 declare
@@ -80,6 +87,7 @@ begin
     dbms_job.run(123);--和select * from user_jobs; 中的job值对应，看what对应的过程
 end;
 ```
+
 ### dblink
 ```sql
 CREATE public database link test_link CONNECT TO user IDENTIFIED BY "pwd"
@@ -88,6 +96,7 @@ using '(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 127.0.0
 select * from table@test_link; 
 drop public database link TEST_LINK;
 ```
+
 ### char varchar nchar nvarchar
 ```sql
 char 定长
@@ -95,6 +104,7 @@ varchar 变长
 char、varchar 英文、数字
 nchar、nvarchar 中文
 ```
+
 ### 二进制解决多状态问题
 1. 2次幂做id，每一位保存一种状态
     ```

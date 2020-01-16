@@ -7,8 +7,8 @@ categories: [笔记]
 
 ## settings.xml
 [点击下载 一键配置脚本](/files/note/maven.zip)
-* 配置中央仓库为aliyun
-* 替换文件
+- 配置中央仓库为aliyun
+- 替换文件
     ```bat
     mkdir %USERPROFILE%\.m2
     copy .\settings.xml %USERPROFILE%\.m2\
@@ -131,6 +131,7 @@ categories: [笔记]
     </executions>
 </plugin>
 ```
+
 ### 多环境配置
 >project
 ```xml

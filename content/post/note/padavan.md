@@ -10,8 +10,10 @@ categories: [笔记]
 ### 导出节点
 1. 在电脑上将正常的节点导出为客户端json
 2. 修改json第10行"listen"为路由器的管理地址
+
 ### v2ray设置
 - 搭建Web环境==>v2ray==>v2ray proxy 开关 打开==>粘贴v2ray_config_script==>应用本页设置
+
 ### transocks设置
 - 广告屏蔽功能==>transocks==>transocks 开关 打开
 - 透明重定向的代理服务器IP、域名:路由器的管理IP

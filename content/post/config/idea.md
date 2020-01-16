@@ -5,18 +5,13 @@ tags: [idea]
 categories: [配置]
 ---
 
-## 设置同步
-1. File - Settings Repository
-2. Upstream URL:  
-`https://github.com/yzlc/jetbrainsSettings.git`
-3. Overwrite Local
-
 ## Help
 - Edit Custom VM Options...
 ```properties
 -Dfile.encoding=UTF-8
 -Dsun.jnu.encoding=UTF-8
 ```
+
 ## Settings
 ### Editor
 - File and Code Templates
@@ -33,13 +28,20 @@ categories: [配置]
 #### General
 - Auto Import
    - [x] Add unambiguous imports on the fly
-   - [x] ~~Optimize imports on the fly~~
+   - [x] Optimize imports on the fly
 - Code Completion 
    - [ ] Match case
 - Editor Tabs
    - [ ] Show tabs in one row  
    Tab limit `30`
+
 ### intall Plugins
 ```
 FindBugs
 ```
+
+## ~~设置同步~~(不能完全同步)
+1. File - Settings Repository
+2. Upstream URL:  
+`https://github.com/yzlc/jetbrainsSettings.git`
+3. Overwrite Local

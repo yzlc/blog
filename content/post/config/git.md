@@ -6,9 +6,9 @@ categories: [配置]
 ---
 
 ## 免密登录
-* ssh方式  
+- ssh方式  
 `ssh-keygen -t rsa -C "yzlc233@outlook.com"`
-* http方式
+- http方式
   ```bash
   #1. 新增配置文件
   cd ~
@@ -22,11 +22,11 @@ categories: [配置]
   git config --global credential.helper store
   ```
 
-## git全局代理
+## 配置代理
 ```bash
 git config --global http.proxy socks5://127.0.0.1:10808
 git config --global https.proxy socks5://127.0.0.1:10808
 ```
 
-## 使用代理下载文件
+## 代理下载
 `curl -fLO --socks5 127.0.0.1:10808 url`

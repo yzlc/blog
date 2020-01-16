@@ -12,6 +12,7 @@ categories: [笔记]
 `ssh-copy-id -p port user@host`
 3. ssh登录  
 `ssh -p port user@host`
+
 ### 安装工具包
 ```bash
 yum -y update && yum -y upgrade
@@ -19,6 +20,7 @@ yum -y install wget
 yum -y install vim
 yum -y install zip unzip
 ```
+
 ### vim配置
 - `vim /root/.vimrc`
 ```bash
@@ -28,8 +30,10 @@ set tabstop=4
 set termencoding=utf-8
 set encoding=prc
 ```
+
 ### 修改时区
 `timedatectl set-timezone Asia/Shanghai`
+
 ### SS
 ```bash
 #安装
@@ -44,6 +48,7 @@ wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.
 #配置文件
 /etc/shadowsocks-python/config.json
 ```
+
 ### BBR
 ```bash
 #安装
@@ -52,6 +57,7 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 #测试
 `sysctl net.ipv4.tcp_available_congestion_control`
 ```
+
 ### mysql
 ```bash
 #安装
@@ -80,6 +86,7 @@ mysql -u 用户名 -p
 GRANT ALL PRIVILEGES ON *.- TO '用户名'@'%' IDENTIFIED BY '密码' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
+
 ### git
 1. `yum -y install git`
 2. `adduser git`
@@ -94,14 +101,7 @@ FLUSH PRIVILEGES;
 `chown -R git:git sample.git`
 6. 下载
 `git clone ssh://git@server:port/srv/sample.git`
-### consul
-1. 下载
-```bash
-wget https://releases.hashicorp.com/consul/1.4.2/consul_1.4.2_linux_amd64.zip
-unzip consul_1.4.2_linux_amd64.zip
-```
-2. 启动
-`./consul agent -dev > consul.log 2>&1 &`
+
 ### rabbitmq
 1. 下载脚本
 ```bash
@@ -152,6 +152,7 @@ vi /etc/rabbitmq/rabbitmq.config
 ```
  6. 重启服务
 `systemctl restart rabbitmq-server`
+
 ### redis
 1. 安装
 ```bash

@@ -6,9 +6,9 @@ categories: [命令]
 ---
 
 ## 命令
-1. 启动  
+- 启动  
 `start nginx`
-3. 正常停止  
+- 正常停止  
 `nginx -s quit`
-3. 快速停止  
+- 快速停止  
 `nginx -s stop`

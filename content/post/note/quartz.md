@@ -12,6 +12,7 @@ categories: [笔记]
 2. JobDetail 表示一个具体的可执行的调度程序，Job 是这个可执行程调度程序所要执行的内容，另外 JobDetail 还包含了这个任务调度的方案和策略。 
 3. Trigger 代表一个调度参数的配置，什么时候去调。 
 4. Scheduler 代表一个调度容器，一个调度容器中可以注册多个 JobDetail 和 Trigger。当 Trigger 与 JobDetail 组合，就可以被 Scheduler 容器调度了。 
+
 ## 快速入门
 1. 下载[最新稳定版本](http://www.quartz-scheduler.org/downloads/)
 2. 解压安装包。将lib/目录下的quartz-xxx.jar（其中xxx是版本号）放在应用的classpath下
@@ -53,6 +54,7 @@ public class QuartzTest {
   }
 }
 ```
+
 ## Quartz API
 >Quartz API的关键接口是：
 >- Scheduler - 与调度程序交互的主要API。
@@ -75,6 +77,7 @@ scheduler.start();
 
 scheduler.shutdown();
 ```
+
 ### Job和JobDetail
 >job - 实现了Job接口的类，该接口只有一个方法  
 >JobDetail - Job实例所包含的属性
@@ -122,6 +125,7 @@ public class HelloJob implements Job {
     }
 }
 ```
+
 ### Triggers
 >公共属性
 >- jobKey属性：当trigger触发时被执行的job的身份
@@ -141,12 +145,14 @@ SimpleTrigger：在具体的时间点执行一次，或者在具体的时间点�
       .forJob("myJob", "group1")
       .build();
     ```
+
 ## Job Stores
 >负责跟踪提供给调度程序的所有“工作数据”：jobs，triggers，日历等。
 ### RAMJobStore
 - 优点:使用简单，所有数据保存在RAM中，性能高
 - 缺点:当应用程序结束（或崩溃）时，所有调度信息都将丢失
 - 配置:`org.quartz.jobStore.class = org.quartz.simpl.RAMJobStore`
+
 ### JDBC JobStore
 - 优点:所有数据保存在数据库中
 - 缺点:配置比RAMJobStore复杂，而且也不是那么快
@@ -172,6 +178,7 @@ SimpleTrigger：在具体的时间点执行一次，或者在具体的时间点�
         `org.quartz.jobStore.tablePrefix = QRTZ_`
     - 配置DataSource
         `org.quartz.jobStore.dataSource = myDS`
+
 ### TerracottaJobStore
 提供了一种不需要使用数据的可伸缩，健壮的方案，而不使用数据库
 - 配置:
