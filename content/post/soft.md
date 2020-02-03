@@ -31,6 +31,10 @@ categories: [软件]
 ## 开发
 - [idea](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windowsZip&code=IIC)
 - [jdk8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+  - 提取文件  
+  `C:\Users\yzlc2\Downloads\jdk-8u221-windows-x64\.rsrc\1033\JAVA_CAB10\111\tools.zip`
+  - 解压`tools.zip`，执行  
+  `for /r %x in (*.pack) do .\bin\unpack200 -r "%x" "%~dx%~px%~nx.jar"`
 - [tomcat7](https://tomcat.apache.org/download-70.cgi)
 - [svn](https://tortoisesvn.net/downloads.html)
 - [plsql 11](https://www.allroundautomations.com/registered-plsqldev/)
