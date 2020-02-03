@@ -17,11 +17,10 @@ categories: [软件]
 
 ## 工具
 - [Xshell](/files/soft/Xshell.7z)
-- [teamViewer](https://dl.tvcdn.de/download/TeamViewerPortable.zip)
-- [tim](https://office.qq.com/download.html)
+- [qq](https://www.microsoft.com/store/productId/9NHLGF0ZWC5S)
 - [rufus](https://github.com/pbatard/rufus/releases)
+- [teamViewer](https://dl.tvcdn.de/download/TeamViewerPortable.zip)
 - [xmind8](https://www.xmind.net/download/xmind8)
-- [notepad++](https://notepad-plus-plus.org/download)
 - [ss](https://github.com/shadowsocks/shadowsocks-windows/releases)
 - [potPlayer](https://www.videohelp.com/software/PotPlayer/old-versions#download)
 - [dism++](https://www.chuyu.me/zh-Hans/index.html)
@@ -41,9 +40,8 @@ categories: [软件]
     `226959`
   - password:  
     `xs374ca`
-- [oracle client 11.2](https://www.oracle.com/webapps/redirect/signon?nexturl=https://download.oracle.com/otn/nt/instantclient/11204/instantclient-basic-windows.x64-11.2.0.4.0.zip)
+- [instantclient-basic-11.2.0.4](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html)
 - [jdgui](/files/soft/jdgui.zip)
-- [sqlDeveloper](https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html)
 - [soapui](http://smartbearsoftware.com/distrib/soapui/3.0.1/soapui-3.0.1-windows-bin.zip)
 - [charles](https://www.charlesproxy.com/latest-release/download.do#)
   - Registered Name：  
