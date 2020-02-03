@@ -16,7 +16,6 @@ categories: [软件]
 - [Dynamic theme](https://www.microsoft.com/store/productId/9NBLGGH1ZBKW)
 
 ## 工具
-- [Xshell](/files/soft/Xshell.7z)
 - [qq](https://www.microsoft.com/store/productId/9NHLGF0ZWC5S)
 - [rufus](https://github.com/pbatard/rufus/releases)
 - [teamViewer](https://dl.tvcdn.de/download/TeamViewerPortable.zip)
