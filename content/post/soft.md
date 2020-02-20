@@ -6,11 +6,11 @@ categories: [软件]
 ---
 
 ## 必备
-- [office365](https://portal.office.com)
+- [office](https://otp.landian.vip/redirect/download.html)
 - [sumatrapdf](https://www.sumatrapdfreader.org/downloadafter.html)
 - [7z](https://sparanoid.com/lab/7z/download.html)
-- [git](https://git-scm.com/downloads)
-- [vscode](https://code.visualstudio.com/docs/?dv=winzip)
+- [git](https://git-scm.com/downloads) [备选](https://pc.qq.com/search.html#!keyword=git)
+- [vscode](https://code.visualstudio.com/docs/?dv=win64user)
 - [aria2](/files/soft/aria2.zip)
 - [v2rayN](https://github.com/2dust/v2rayN/releases)
 - [Dynamic theme](https://www.microsoft.com/store/productId/9NBLGGH1ZBKW)
