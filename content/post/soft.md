@@ -8,7 +8,7 @@ categories: [软件]
 ## 必备
 - [office](https://otp.landian.vip/redirect/download.html)
 - [sumatrapdf](https://www.sumatrapdfreader.org/downloadafter.html)
-- [7z](https://sparanoid.com/lab/7z/download.html)
+- [7z](https://www.7-zip.org/a/7z1604-x64.exe)
 - [git](https://git-scm.com/downloads) [备选](https://pc.qq.com/search.html#!keyword=git)
 - [vscode](https://code.visualstudio.com/docs/?dv=win64user)
 - [aria2](/files/soft/aria2.zip)
@@ -35,7 +35,7 @@ categories: [软件]
   - 解压`tools.zip`，执行  
   `for /r %x in (*.pack) do .\bin\unpack200 -r "%x" "%~dx%~px%~nx.jar"`
 - [tomcat7](https://tomcat.apache.org/download-70.cgi)
-- [svn](https://tortoisesvn.net/downloads.html)
+- [svn](https://osdn.net/projects/tortoisesvn/storage/1.10.5/Application/TortoiseSVN-1.10.5.28651-x64-svn-1.10.6.msi/)
 - [plsql 11](https://www.allroundautomations.com/registered-plsqldev/)
   - product code：  
     `4vkjwhfeh3ufnqnmpr9brvcuyujrx3n3le`
