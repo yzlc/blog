@@ -29,6 +29,7 @@ categories: [软件]
 
 ## 开发
 - [idea](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windowsZip&code=IIC)
+- [eclipse](https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/3/eclipse-jee-neon-3-win32-x86_64.zip&mirror_id=1142)
 - [jdk8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
   - 提取文件  
   `C:\Users\yzlc2\Downloads\jdk-8u221-windows-x64\.rsrc\1033\JAVA_CAB10\111\tools.zip`

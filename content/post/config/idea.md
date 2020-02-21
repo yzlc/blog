@@ -37,7 +37,7 @@ categories: [配置]
 
 ### intall Plugins
 ```
-FindBugs
+QAPlug
 ```
 
 ## ~~设置同步~~(不能完全同步)
