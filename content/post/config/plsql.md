@@ -9,9 +9,9 @@ categories: [配置]
 ### Oracle
 - Connection
   - Oracle Home  
-    `C:\Users\yzlc2\soft\instantclient_11_2`
+    `C:\Users\yzlc\soft\instantclient_11_2`
   - OCI library  
-    `C:\Users\yzlc2\soft\instantclient_11_2\oci.dll`
+    `C:\Users\yzlc\soft\instantclient_11_2\oci.dll`
 - Logon History
   - [x] Store with password
 - Other
