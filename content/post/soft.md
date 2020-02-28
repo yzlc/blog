@@ -8,7 +8,7 @@ categories: [软件]
 ## 必备
 - [office](https://otp.landian.vip/redirect/download.html)
 - [sumatrapdf](https://www.sumatrapdfreader.org/downloadafter.html)
-- [7z](https://www.7-zip.org/a/7z1604-x64.exe)
+- [7z](https://www.7-zip.org/a/7z1900-x64.exe)
 - [git](https://git-scm.com/downloads) [备选](https://pc.qq.com/search.html#!keyword=git)
 - [vscode](https://code.visualstudio.com/docs/?dv=win64user)
 - [aria2](/files/soft/aria2.zip)
@@ -26,6 +26,9 @@ categories: [软件]
 
 ## 游戏
 - [战网](https://www.battlenet.com.cn/download/getInstallerForGame?os=win&locale=zhCN&version=LIVE&gameProgram=BATTLENET_APP)
+- [Steam](https://store.steampowered.com/)
+- [Epic](https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi)
+- [uplay](http://ubi.li/4vxt9)
 
 ## 开发
 - [idea](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windowsZip&code=IIC)
@@ -36,8 +39,8 @@ categories: [软件]
   - 解压`tools.zip`，执行  
   `for /r %x in (*.pack) do .\bin\unpack200 -r "%x" "%~dx%~px%~nx.jar"`
 - [tomcat7](https://tomcat.apache.org/download-70.cgi)
-- [svn](https://osdn.net/projects/tortoisesvn/storage/1.10.5/Application/TortoiseSVN-1.10.5.28651-x64-svn-1.10.6.msi/)
-- [plsql 11](https://www.allroundautomations.com/registered-plsqldev/)
+- [svn](https://osdn.net/projects/tortoisesvn/storage/1.13.1/Application/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi/)
+- [plsql](http://www.allroundautomations.com/files/plsqldev1306x64.msi)
   - product code：  
     `4vkjwhfeh3ufnqnmpr9brvcuyujrx3n3le`
   - serial Number：  
