@@ -34,14 +34,3 @@ categories: [配置]
 - Editor Tabs
    - [ ] Show tabs in one row  
    Tab limit `30`
-
-### intall Plugins
-```
-QAPlug
-```
-
-## ~~设置同步~~(不能完全同步)
-1. File - Settings Repository
-2. Upstream URL:  
-`https://github.com/yzlc/jetbrainsSettings.git`
-3. Overwrite Local
