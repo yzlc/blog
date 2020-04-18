@@ -25,5 +25,5 @@ categories: [配置]
 `select userenv('language') from dual;`
 2. 设置环境变量
    - `NLS_LANG`
-   - 步骤1的编码
+   - `AMERICAN_AMERICA.ZHS16GBK`
 3. 重启plsql
