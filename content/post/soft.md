@@ -34,7 +34,7 @@ categories: [软件]
 - [idea](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windowsZip&code=IIC) [配置](https://yzlc.xyz/post/config/idea/)
 - [jdk8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) [备用地址](https://dl.softmgr.qq.com/original/Development/jdk-8u191-windows-x64-8.0.1910.12.exe)
   - 提取文件  
-  `C:\Users\yzlc2\Downloads\jdk-8u221-windows-x64\.rsrc\1033\JAVA_CAB10\111\tools.zip`
+  `C:\Users\yzlc\Downloads\jdk-8u221-windows-x64\.rsrc\1033\JAVA_CAB10\111\tools.zip`
   - 解压`tools.zip`，执行  
   `for /r %x in (*.pack) do .\bin\unpack200 -r "%x" "%~dx%~px%~nx.jar"`
 - [tomcat7](https://tomcat.apache.org/download-70.cgi) [配置](https://yzlc.xyz/post/config/tomcat/)
