@@ -39,14 +39,7 @@ categories: [软件]
   `for /r %x in (*.pack) do .\bin\unpack200 -r "%x" "%~dx%~px%~nx.jar"`
 - [tomcat7](https://tomcat.apache.org/download-70.cgi) [配置](https://yzlc.xyz/post/config/tomcat/)
 - [svn](https://osdn.net/projects/tortoisesvn/storage/1.13.1/Application/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi/) [备用地址](https://dl.softmgr.qq.com/original/Development/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi)
-- [plsql](http://www.allroundautomations.com/files/plsqldev1306x64.msi) [配置](https://yzlc.xyz/post/config/plsql/)
-  - product code：  
-    `4vkjwhfeh3ufnqnmpr9brvcuyujrx3n3le`
-  - serial Number：  
-    `226959`
-  - password:  
-    `xs374ca`
-- [instantclient-basic-11.2.0.4](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html)
+- [dbeaver](https://www.microsoft.com/store/apps/9PNKDR50694P)
 - [jdgui](/files/soft/jdgui.zip)
 - [soapui](http://smartbearsoftware.com/distrib/soapui/3.0.1/soapui-3.0.1-windows-bin.zip)
 - [charles](https://www.charlesproxy.com/latest-release/download.do#)
