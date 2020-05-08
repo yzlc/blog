@@ -5,6 +5,30 @@ tags: [linux]
 categories: [笔记]
 ---
 
+## 文件/目录
+- 复制  
+    `cp -r 目录 目录`
+- 按文件/目录大小排序  
+    `du -sh * | sort -rn | head`
+- 实时浏览
+  - `tail -f xx`
+
+## 权限
+- 授权  
+    `sudo chmod 755 *.sh`
+
+## 远程
+- 上传
+  - `scp file root@ip:/file`
+- 下载
+  - `scp root@ip:/file file`
+
+## 进程
+- 查找
+  - `ps -ef|grep consul`
+- 执行
+  - `nohup xx &`
+
 ## [命令大全](http://man.linuxde.net/)
 - 移动  
 CTRL+A 移动光标至行首  
@@ -59,6 +83,7 @@ CTRL+E 移动光标至行尾
 - 符号仅限：`.`，`－`，`_`（代替空格）
 
 ## 探究操作系统
+- `cat /proc/version` 查看系统版本
 - `file` 文件类型
 ### less
 >文件内容
