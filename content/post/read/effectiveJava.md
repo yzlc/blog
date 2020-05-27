@@ -3,6 +3,8 @@ title: "effective java"
 date: 2019-08-26T10:32:28+08:00
 tags: [java]
 categories: [阅读]
+draft: false
+hiddenFromHomePage: true
 ---
 
 ## 1. 考虑使用静态工厂方法替代构造方法

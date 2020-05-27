@@ -26,3 +26,16 @@ categories: [配置]
 - Background Intelligent Transfer Service
 - 第三方软件服务  
 msconfig – 服务 – 隐藏所有的Microsoft服务 - 关闭不需要的服务
+## 子系统
+### 换源
+[中科大源](http://mirrors.ustc.edu.cn/help/ubuntu.html) [清华源](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/) [阿里源](https://developer.aliyun.com/mirror/)
+```bash
+# 源备份
+sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
+
+# 新源
+sudo vim /etc/apt/sources.list
+
+# 执行系统更新命令
+sudo apt-get update
+```
