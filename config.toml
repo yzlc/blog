@@ -52,7 +52,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   name = "软件"
   weight = 40
   identifier = "soft"
-  url = "/post/soft"
+  url = "/post/soft/soft"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
