@@ -17,6 +17,7 @@ categories: [软件]
 - [MobaXterm](https://mobaxterm.mobatek.net/download-home-edition.html)
 
 ## 工具
+- [ScreenToGif](https://www.microsoft.com/store/productId/9N3SQK8PDS8G)
 - [qq](https://www.microsoft.com/store/productId/9NHLGF0ZWC5S)
 - [rufus](https://github.com/pbatard/rufus/releases)
 - [teamViewer](https://dl.tvcdn.de/download/TeamViewerPortable.zip) [地址2](https://dl.softmgr.qq.com/original/net_app/TeamViewer_Setup_15.3.2682.0.exe)

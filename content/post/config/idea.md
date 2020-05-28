@@ -9,7 +9,6 @@ categories: [配置]
 - Edit Custom VM Options...
 ```properties
 -Dfile.encoding=UTF-8
--Dsun.jnu.encoding=UTF-8
 ```
 
 ## Settings
