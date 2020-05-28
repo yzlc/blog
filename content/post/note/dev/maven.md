@@ -1,18 +1,9 @@
 ---
-title: "maven"
+title: "maven - pom配置"
 date: 2019-03-05T10:32:33+08:00
 tags: [maven]
 categories: [笔记]
 ---
-
-## settings.xml
-[点击下载 一键配置脚本](/files/note/maven.zip)
-- 配置中央仓库为aliyun
-- 替换文件
-    ```bat
-    mkdir %USERPROFILE%\.m2
-    copy .\settings.xml %USERPROFILE%\.m2\
-    ```
 
 ## pom.xml
 ### 基础配置

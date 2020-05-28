@@ -1,5 +1,5 @@
 ---
-title: "数据库常用sql"
+title: "常用sql"
 date: 2019-05-04T10:32:33+08:00
 tags: [sql]
 categories: [笔记]

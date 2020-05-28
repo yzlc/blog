@@ -1,11 +1,11 @@
 ---
 title: "nginx"
-date: 2019-08-30T15:40:23+08:00
+date: 2019-06-30T15:42:10+08:00
 tags: [nginx]
 categories: [命令]
 ---
 
-## 命令
+## nginx
 - 启动  
 `start nginx`
 - 正常停止  
