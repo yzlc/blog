@@ -23,11 +23,11 @@ categories: [笔记]
     ```
 
 ## 集合字段映射
-    ```xml
-    <resultMap class="" id="queryResult">
-        <result property="ids" column="id" select="queryIds"/>
-    </resultMap>
-    ```
+```xml
+<resultMap class="" id="queryResult">
+    <result property="ids" column="id" select="queryIds"/>
+</resultMap>
+```
 
 ## 常见错误
 - Invalid bound statement (not found)  

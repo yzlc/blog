@@ -2,7 +2,7 @@
 title: "ss"
 date: 2019-09-01T10:32:33+08:00
 tags: [ss]
-categories: [笔记]
+categories: [配置]
 ---
 
 ## SS

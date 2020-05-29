@@ -2,7 +2,7 @@
 title: "v2ray"
 date: 2019-09-16T10:32:33+08:00
 tags: [v2ray]
-categories: [笔记]
+categories: [配置]
 ---
 
 ## [namesilo](https://www.namesilo.com)

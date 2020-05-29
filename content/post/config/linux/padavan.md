@@ -2,7 +2,7 @@
 title: "padavan"
 date: 2019-07-08T10:32:33+08:00
 tags: [padavan]
-categories: [笔记]
+categories: [配置]
 ---
 
 [Padavan](https://www.right.com.cn/forum/thread-161324-1-1.html)
