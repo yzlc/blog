@@ -9,13 +9,13 @@ jobs:
     steps:
     - uses: actions/checkout@master
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.3.1
+    - name: Hugo setup
+      uses: peaceiris/actions-hugo@v2.4.11
       with:
         hugo-version: 'latest'
         extended: true
 
-    - name: get theme
+    - name: Theme setup
       run: |
         git clone --depth=1 https://github.com/yzlc/hugo-theme-even.git ./themes/even
         
