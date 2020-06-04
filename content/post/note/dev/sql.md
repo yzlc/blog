@@ -84,7 +84,8 @@ end;
 select * from all_jobs;
 
 begin
-    dbms_job.run(123);--和select * from user_jobs; 中的job值对应，看what对应的过程
+    dbms_job.run(123);--启动
+    dbms_job.broken(123, true);--停止
 end;
 ```
 
