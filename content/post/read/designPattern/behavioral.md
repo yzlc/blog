@@ -3,8 +3,6 @@ title: "行为型模式"
 date: 2019-07-15T13:32:28+08:00
 tags: [设计模式]
 categories: [阅读]
-draft: false
-hiddenFromHomePage: true
 ---
 
 ## 策略模式（Strategy）

@@ -1,5 +1,5 @@
 ---
-title: "maven - pom配置"
+title: "pom配置"
 date: 2019-03-05T10:32:33+08:00
 tags: [maven]
 categories: [笔记]

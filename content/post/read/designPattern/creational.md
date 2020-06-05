@@ -3,8 +3,6 @@ title: "创建型模式"
 date: 2019-07-15T11:32:28+08:00
 tags: [设计模式]
 categories: [阅读]
-draft: false
-hiddenFromHomePage: true
 ---
 
 ## 简单工厂模式
