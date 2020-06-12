@@ -122,3 +122,8 @@ nchar、nvarchar 中文
 SELECT listagg (T .ENAME, ',') WITHIN GROUP (ORDER BY T .ENAME) names
 FROM SCOTT.EMP T
 ```
+
+### 截取字符串
+```sql
+SELECT SUBSTR ('123.456', INSTR ('123.456', '.', 1, 1)+1) FROM DUAL;
+```
