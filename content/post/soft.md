@@ -48,7 +48,7 @@ categories: [软件]
 [k2p路由器固件](https://github.com/hanwckf/rt-n56u)
 
 ## 开发
-[idea](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windowsZip&code=IIC) [配置](https://yzlc.xyz/post/config/win/idea/)
+[idea](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windowsZip&code=IIC) [配置](/post/config/win/idea)
 
 [jdk8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) [地址2](https://dl.softmgr.qq.com/original/Development/jdk-8u191-windows-x64-8.0.1910.12.exe)
 - 提取文件  
@@ -56,11 +56,11 @@ categories: [软件]
 - 解压`tools.zip`，执行  
 `for /r %x in (*.pack) do .\bin\unpack200 -r "%x" "%~dx%~px%~nx.jar"`
 
-[tomcat7](https://tomcat.apache.org/download-70.cgi) [配置](https://yzlc.xyz/post/config/win/tomcat/)
+[tomcat7](https://tomcat.apache.org/download-70.cgi) [配置](/post/config/win/tomcat)
 
 [svn](https://osdn.net/projects/tortoisesvn/storage/1.13.1/Application/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi/) [地址2](https://dl.softmgr.qq.com/original/Development/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi)
 
-[dbeaver](https://www.microsoft.com/store/apps/9PNKDR50694P) [配置](https://yzlc.xyz/post/config/win/dbeaver/)
+[dbeaver](https://www.microsoft.com/store/apps/9PNKDR50694P) [配置](/post/config/win/dbeaver)
 
 [jdgui](/files/soft/jdgui.zip)
 
