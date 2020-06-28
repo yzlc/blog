@@ -12,7 +12,7 @@ categories: [阅读]
 
 《数据结构与算法》
 
-[linux](/tags/linux) [原书地址](https://billie66.github.io/TLCL/book/)
+[linux](/tags/linux)&emsp;[原书地址](https://billie66.github.io/TLCL/book/)
 ## 设计
 《Java编程思想》
 
