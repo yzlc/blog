@@ -5,4 +5,4 @@ tags: [白盒]
 categories: [笔记]
 ---
 
-## [Java-XXE-总结](http://www.lmxspace.com/2019/10/31/Java-XXE-%E6%80%BB%E7%BB%93/#9-TransformerFactory)
+## [Java-XXE-总结](http://lmxspace.com/2019/10/31/Java-XXE-%E6%80%BB%E7%BB%93/#9-TransformerFactory)
