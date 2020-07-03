@@ -43,6 +43,8 @@ categories: [软件]
 
 [pdf生成目录](https://github.com/ifnoelse/pdf-bookmark)
 
+[电子书管理](https://calibre-ebook.com/download_windows)
+
 [ss账号](https://github.com/selierlin/Share-SSR-V2ray)
 
 [k2p路由器固件](https://github.com/hanwckf/rt-n56u)
