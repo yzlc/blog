@@ -3,6 +3,7 @@ title: "linux - 软件包管理"
 date: 2019-06-01T10:32:33+08:00
 tags: [linux]
 categories: [阅读]
+hiddenFromHomePage: true
 ---
 
 ### 打包系统

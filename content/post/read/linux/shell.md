@@ -3,6 +3,7 @@ title: "linux - shell"
 date: 2019-06-01T10:32:33+08:00
 tags: [linux]
 categories: [阅读]
+hiddenFromHomePage: true
 ---
 
 ## shell环境

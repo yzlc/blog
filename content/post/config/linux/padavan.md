@@ -5,7 +5,7 @@ tags: [padavan]
 categories: [配置]
 ---
 
-[Padavan](https://www.right.com.cn/forum/thread-161324-1-1.html)
+[Padavan](https://right.com.cn/forum/thread-161324-1-1.html)
 ## [v2ray](https://sixu.life/padavan-v2ray.html)
 ### 导出节点
 1. 在电脑上将正常的节点导出为客户端json

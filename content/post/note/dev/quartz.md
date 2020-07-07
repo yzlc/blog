@@ -5,7 +5,7 @@ tags: [quartz]
 categories: [笔记]
 ---
 
->[quartz](http://www.quartz-scheduler.org/)Java下的一种作业控制开源框架。
+>[quartz](http://quartz-scheduler.org/)Java下的一种作业控制开源框架。
 ## 核心概念
 1. Job 表示一个工作，要执行的具体内容。此接口中只有一个方法，如下：  
 `void execute(JobExecutionContext context)`
@@ -14,7 +14,7 @@ categories: [笔记]
 4. Scheduler 代表一个调度容器，一个调度容器中可以注册多个 JobDetail 和 Trigger。当 Trigger 与 JobDetail 组合，就可以被 Scheduler 容器调度了。 
 
 ## 快速入门
-1. 下载[最新稳定版本](http://www.quartz-scheduler.org/downloads/)
+1. 下载[最新稳定版本](http://quartz-scheduler.org/downloads/)
 2. 解压安装包。将lib/目录下的quartz-xxx.jar（其中xxx是版本号）放在应用的classpath下
 3. 在classpath下创建名为quartz.properties的配置文件。基本配置如下:
 ```properties

@@ -5,11 +5,11 @@ tags: [v2ray]
 categories: [配置]
 ---
 
-## [namesilo](https://www.namesilo.com)
+## [namesilo](https://namesilo.com)
 1. unlock Domains
 2. change nameservers
 
-## [cloudflare](https://www.cloudflare.com)
+## [cloudflare](https://cloudflare.com)
 1. Add a Site
 2. DNS
    - Add record

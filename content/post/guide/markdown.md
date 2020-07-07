@@ -41,15 +41,15 @@ Markdown支持6种级别的标题，与html标签h1~h6对应。
 ### 插入链接或图片
 ```
 [点击跳转至首页](https://yzlc.xyz "首页")
-![图片](/images/icons/favicon.ico "图片")
+![图片](https://yzlc.xyz/favicon.ico "图片")
 ```
 [点击跳转至首页](https://yzlc.xyz "首页")  
-![图片](/images/icons/favicon.ico "图片")  
+![图片](https://yzlc.xyz/favicon.ico "图片")  
 如下给图片加上超链接的代码：
 ```
-[![yzlc](https://yzlc.xyz/images/icons/favicon.ico "首页Logo")](https://yzlc.xyz "首页")
+[![yzlc]("首页Logo")](https://yzlc.xyz "首页")
 ```
-[![yzlc](https://yzlc.xyz/images/icons/favicon.ico "首页Logo")](https://yzlc.xyz "首页")
+[![yzlc](https://yzlc.xyz/favicon.ico)](https://yzlc.xyz)
 ### 列表
 Markdown支持有序列表和无序列表两种形式：  
 + 无序列表使用*或+或-标识，多级列表就是多加一个tab。
@@ -158,7 +158,7 @@ function(){
 	多行文本
 	多行文本
 ### 表情
-gif表情地址：https://www.webfx.com/tools/emoji-cheat-sheet/  
+gif表情地址：https://webfx.com/tools/emoji-cheat-sheet/  
 `:smile`:  
 :smile:  
 ### 勾选选项
