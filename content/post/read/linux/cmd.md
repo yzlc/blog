@@ -3,6 +3,7 @@ title: "linux - 使用命令"
 date: 2019-06-01T10:32:33+08:00
 tags: [linux]
 categories: [阅读]
+hiddenFromHomePage: true
 ---
 
 ## 使用命令
