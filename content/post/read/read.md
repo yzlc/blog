@@ -10,7 +10,7 @@ categories: [阅读]
 
 《tcp/ip详解 卷一、二、三》
 
-《数据结构与算法》
+[《数据结构与算法》](/tags/算法)
 
 [linux](/tags/linux)&emsp;[原书地址](https://billie66.github.io/TLCL/book/)
 ## 设计
