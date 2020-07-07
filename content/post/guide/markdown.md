@@ -50,8 +50,6 @@ Markdown支持6种级别的标题，与html标签h1~h6对应。
 [![yzlc]("首页Logo")](https://yzlc.xyz "首页")
 ```
 [![yzlc](https://yzlc.xyz/favicon.ico)](https://yzlc.xyz)
-
-[[https://www.vultr.com/?ref=7903589-4F][https://www.vultr.com/media/banners/banner_468x60.png]]
 ### 列表
 Markdown支持有序列表和无序列表两种形式：  
 + 无序列表使用*或+或-标识，多级列表就是多加一个tab。
