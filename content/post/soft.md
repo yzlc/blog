@@ -62,14 +62,14 @@ categories: [软件]
 
 [svn](https://osdn.net/projects/tortoisesvn/storage/1.13.1/Application/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi/)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi)
 
-- [plsql](http://www.allroundautomations.com/files/plsqldev1306x64.msi)&emsp;[配置](https://yzlc.xyz/post/config/plsql/)
+[plsql](http://www.allroundautomations.com/files/plsqldev1306x64.msi)&emsp;[配置](https://yzlc.xyz/post/config/plsql/)
   - product code：  
     `4vkjwhfeh3ufnqnmpr9brvcuyujrx3n3le`
   - serial Number：  
     `226959`
   - password:  
     `xs374ca`
-- [instantclient-basic-11.2.0.4](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html)
+[instantclient-basic-11.2.0.4](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html)
 
 [dbeaver](https://microsoft.com/store/apps/9PNKDR50694P)&emsp;[配置](/post/config/win/dbeaver)
 
