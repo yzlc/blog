@@ -47,6 +47,7 @@ categories: [软件]
 
 [k2p路由器固件](https://github.com/hanwckf/rt-n56u)
 
+[360清理大师](http://down.360safe.com/360CleanMasterPC/Setup_360CleanMaster.exe)
 ## 开发
 [idea](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windowsZip&code=IIC) [配置](https://yzlc.xyz/post/config/win/idea/)
 
