@@ -69,6 +69,7 @@ categories: [软件]
   `226959`
 - password:  
   `xs374ca`
+
 [instantclient-basic-11.2.0.4](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html)
 
 [dbeaver](https://microsoft.com/store/apps/9PNKDR50694P)&emsp;[配置](/post/config/win/dbeaver)
