@@ -18,7 +18,7 @@ categories: [软件]
 
 [aria2](/files/soft/aria2.zip)
 
-[v2rayN](https://github.com/2dust/v2rayN/releases)
+[clash](https://github.com/Fndroid/clash_for_windows_pkg/releases)&emsp;[v2rayN](https://github.com/2dust/v2rayN/releases)&emsp;[ss](https://github.com/shadowsocks/shadowsocks-windows/releases)
 
 [Dynamic theme](https://microsoft.com/store/productId/9NBLGGH1ZBKW)
 
@@ -31,11 +31,7 @@ categories: [软件]
 
 [rufus](https://github.com/pbatard/rufus/releases)
 
-[teamViewer](https://download.teamviewer.com/download/TeamViewerPortable.zip)&emsp;[地址2](https://dl.softmgr.qq.com/original/net_app/TeamViewer_Setup_15.3.2682.0.exe)
-
-[向日葵](https://sunlogin.oray.com/personal/download/)
-
-[ss](https://github.com/shadowsocks/shadowsocks-windows/releases)
+[向日葵](https://sunlogin.oray.com/personal/download/)&emsp;[teamViewer](https://download.teamviewer.com/download/TeamViewerPortable.zip)&emsp;[地址2](https://dl.softmgr.qq.com/original/net_app/TeamViewer_Setup_15.3.2682.0.exe)
 
 [potPlayer](https://videohelp.com/software/PotPlayer/old-versions#download)&emsp;[地址2](https://dl.softmgr.qq.com/original/Video/PotPlayerSetup64_1.7.16291_1.exe)
 
@@ -63,15 +59,13 @@ categories: [软件]
 
 [svn](https://osdn.net/projects/tortoisesvn/storage/1.13.1/Application/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi/)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi)
 
-[plsql](http://www.allroundautomations.com/files/plsqldev1306x64.msi)&emsp;[配置](https://yzlc.xyz/post/config/win/plsql/)
+[plsql](http://www.allroundautomations.com/files/plsqldev1306x64.msi)&emsp;[instantclient-basic-11.2.0.4](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html)&emsp;[配置](https://yzlc.xyz/post/config/win/plsql/)
 - product code：  
   `4vkjwhfeh3ufnqnmpr9brvcuyujrx3n3le`
 - serial Number：  
   `226959`
 - password:  
   `xs374ca`
-
-[instantclient-basic-11.2.0.4](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html)
 
 [dbeaver](https://microsoft.com/store/apps/9PNKDR50694P)&emsp;[配置](/post/config/win/dbeaver)
 
