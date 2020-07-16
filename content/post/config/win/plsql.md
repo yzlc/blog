@@ -5,25 +5,42 @@ tags: [plsql]
 categories: [配置]
 ---
 
+## 下载
+[plsql](http://www.allroundautomations.com/files/plsqldev1306x64.msi)&emsp;[instantclient-basic-11.2.0.4](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html)
+
+## 注册
+product code：  
+`4vkjwhfeh3ufnqnmpr9brvcuyujrx3n3le`
+
+serial Number：  
+`226959`
+
+password:  
+`xs374ca`
+
 ## Preferences
 ### Oracle
-- Connection
-  - Oracle Home  
-    `C:\Users\yzlc\soft\instantclient_11_2`
-  - OCI library  
-    `C:\Users\yzlc\soft\instantclient_11_2\oci.dll`
-- Logon History
-  - [x] Store with password
-- Other
-  - Updates
-    - [x] Never
-  - News
-    - [x] Never
+Connection
+- Oracle Home  
+  `C:\soft\instantclient_11_2`
+- OCI library  
+  `C:\soft\instantclient_11_2\oci.dll`
+
+Logon History
+- [x] Store with password
+
+Other
+- Updates
+  - [x] Never
+- News
+  - [x] Never
 
 ## 乱码
-1. 查询编码  
+查询编码  
 `select userenv('language') from dual;`
-2. 设置环境变量
-   - `NLS_LANG`
-   - 步骤1的编码
-3. 重启plsql
+
+设置环境变量
+- `NLS_LANG`
+- `SIMPLIFIED CHINESE_CHINA.ZHS16GBK`
+
+重启plsql

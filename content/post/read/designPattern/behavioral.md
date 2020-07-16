@@ -8,6 +8,7 @@ hiddenFromHomePage: true
 
 ## 策略模式（Strategy）
 >定义了算法家族，分别封装起来，让它们之间可以互相替换，此模式让算法的变化，不会影响到使用算法的客户。
+
 ![](/images/read/designPattern/behavioral/strategy.png)
 ### 优点
 - 以相同的方式调用所有的算法，减少了各种算法类与使用算法类之间的耦合
@@ -20,22 +21,26 @@ hiddenFromHomePage: true
 
 ## 模板方法模式（Template Method）
 >定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤
+
 ![](/images/read/designPattern/behavioral/templateMethod.png)
 ### 优点
 - 把不变行为搬移到超类，去除子类中的重复代码
 
 ## 观察者模式（Observer）
 >观察者模式定义了一种一对多的依赖关系，让多个观察者对象同时监听某一个主题对象。这个主题对象在状态发生变化时，会通知所有观察者对象，使它们能够自动更新自己
+
 ![](/images/read/designPattern/behavioral/observer.png)
 ### 缺点
 - 抽象通知者还是依赖抽象观察者
 - 通知方法被固定
 ### 事件委托
 >委托就是一种引用方法的类型。一旦为委托分配了方法，委托将与该方法具有完全相同的行为。委托方法的使用可以像其他任何方法一样，具有参数和返回值。委托可以看作是对函数的抽象，是函数的’类‘，委托的实例将代表一个具体的函数
+
 ![](/images/read/designPattern/behavioral/delegate.png)
 
 ## 状态模式（State）
 >当一个对象的内在状态改变时允许改变其行为，这个对象看起来像是改变了其类
+
 ![](/images/read/designPattern/behavioral/state.png)
 ### 优点
 - 将与特定状态相关的行为局部化，并且将不同状态的行为分割开来
@@ -46,12 +51,14 @@ hiddenFromHomePage: true
 
 ## 备忘录模式（Memento）
 >在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。这样以后就可将该对象恢复到原先保存的状态
+
 ![](/images/read/designPattern/behavioral/memento.png)
 ### 应用
 - 适用于功能比较复杂的，但需要维护或记录属性历史的类
 
 ## 命令模式（Command）
 >将一个请求封装为一个对象，从而使你可用不同的请求对客户进行参数化；对请求排队或记录请求日志，以及支持可撤销的操作
+
 ![](/images/read/designPattern/behavioral/command.png)
 ### 优点
 - 把请求一个操作的对象与知道怎么执行一个操作的对象分割开
@@ -65,10 +72,12 @@ hiddenFromHomePage: true
 
 ## 迭代器模式（Iterator）
 >提供一种方法顺序访问一个聚合对象中各个元素，而又不是暴露该对象的内部表示
+
 ![](/images/read/designPattern/behavioral/iterator.png)
 
 ## 职责链模式（Chain of Responsibility）
 >使多个对象都有机会处理请求，从而避免请求的发送者和接收者之间的耦合关系。将这个对象连成一条链，并沿着这条链传递该请求，直到有一个对象处理它为止
+
 ![](/images/read/designPattern/behavioral/chainofResponsibility.png)
 ### 优点
 - 可简化对象的相互连接，它们仅需保持一个指向其后继者的引用，而不需保持它所有的候选接受者的引用
@@ -76,6 +85,7 @@ hiddenFromHomePage: true
 
 ## 中介者模式（Mediator）
 >用一个中介对象来封装一系列的对象交互。中介者使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互
+
 ![](/images/read/designPattern/behavioral/mediator.png)
 ### 优点
 - 减少了各个Colleague的耦合，使得可以独立地改变和复用各个Colleague类和Mediator
@@ -88,6 +98,7 @@ hiddenFromHomePage: true
 
 ## 解释器模式（Interpreter）
 >给定一个语言，定义它的文法的一种表示，并定义一个解释器，这个解释器使用该表示来解释语言中的句子
+
 ![](/images/read/designPattern/behavioral/interpreter.png)
 ### 应用
 - 当有一个语言需要解释执行，并且你可将该语言中的句子表示为一个抽象语法树时
@@ -98,4 +109,5 @@ hiddenFromHomePage: true
 
 ## 访问者模式（Visitor）
 >表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作
+
 ![](/images/read/designPattern/behavioral/visitor.png)

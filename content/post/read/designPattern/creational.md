@@ -15,12 +15,14 @@ hiddenFromHomePage: true
 
 ## 工厂方法模式（Factory Method）
 >定义一个用于创建对象的接口，让子类决定实例化哪一个类。工厂方法使一个类的实例化延迟到其子类
+
 ![](/images/read/designPattern/creational/factoryMethod.png)
 ### vs 简单工厂
 - 把简单工厂的内部逻辑判断移到了客户端代码来进行
 
 ## 原型模式（Prototype）
 >用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象
+
 ![](/images/read/designPattern/creational/prototype.png)
 ### 优点
 - 一般在初始化的信息不发生变化的情况下，克隆是最好的办法。既隐藏了对象创建的细节，又对性能是大大的提高
@@ -28,6 +30,7 @@ hiddenFromHomePage: true
 
 ## 建造者模式（Builder）
 >将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示
+
 ![](/images/read/designPattern/creational/builder.png)
 ### 应用
 - 创建复杂的对象，这些对象内部构建间的建造顺序通常是稳定的，但对象内部的构建通常面临着复杂的变化
@@ -37,6 +40,7 @@ hiddenFromHomePage: true
 
 ## 抽象工厂模式（AbstractFactory）
 >提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们具体的类
+
 ![](/images/read/designPattern/creational/abstractFactory.png)
 ### 优点
 - 易于交换产品系列，由于具体工厂类，在一个应用中只需要在初始化的时候出现一次，这就使得改变一个应用的具体工厂变得非常容易，它只需要改变具体工厂即可使用不同的产品配置
@@ -50,4 +54,5 @@ hiddenFromHomePage: true
 
 ## 单例模式（Singleton）
 >保证一个类仅有一个实例，并提供一个访问它的全局访问点
+
 ![](/images/read/designPattern/creational/singleton.png)

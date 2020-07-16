@@ -5,32 +5,42 @@ tags: [网站]
 categories: [网站]
 ---
 
-## 视频
-[bilibili](https://bilibili.com)&emsp;[yhdm](http://yhdm.tv)&emsp;[klkl](https://klkl.tv)
+视频
+&emsp;[哔哩哔哩](https://bilibili.com)
+&emsp;[樱花动漫](http://yhdm.tv)
+&emsp;[K哩K哩](https://klkl.tv)
 
-## 翻译
-[google](https://translate.google.cn)
+翻译
+&emsp;[谷歌翻译](https://translate.google.cn)
 
-## 画图
-[diagrams](https://app.diagrams.net)
+画图
+&emsp;[diagrams](https://app.diagrams.net)
 
-## 开发
-[bejson](https://bejson.com)&emsp;[Maven Repository](https://mvnrepository.com)&emsp;[leetcode](https://leetcode.com)&emsp;[github](https://github.com)
+开发
+&emsp;[工具大全](https://www.bejson.com)
+&emsp;[maven仓库](https://mvnrepository.com)
+&emsp;[leetcode](https://leetcode.com)
+&emsp;[github](https://github.com)
 
-## 图片压缩
-[tinypng](https://tinypng.com)&emsp;[squoosh](https://squoosh.app)
+CDN
+&emsp;[cloudflare](https://dash.cloudflare.com)
 
-## 电子书
-[鸠摩](https://jiumodiary.com)&emsp;[Library Genesis](http://gen.lib.rus.ec)&emsp;[Electronic library](https://b-ok.org)
+工具
+&emsp;[搬瓦工](https://kiwivm.64clouds.com)
+&emsp;[LeanCloud](https://leancloud.cn/dashboard/applist.html#/apps)
+&emsp;[open](https://yzlc.xyz/api/open)
 
-## 临时邮箱
-[temp mail](https://temp-mail.org/zh)
+账号
+&emsp;[临时邮箱](https://temp-mail.org/zh)
+&emsp;[云短信](https://www.materialtools.com)
 
-## 临时手机号
-[云短信](https://materialtools.com)
+购物
+&emsp;[什么值得买](https://smzdm.com)
 
-## 站长工具
-[搬瓦工](https://kiwivm.64clouds.com)&emsp;[cloudflare](https://dash.cloudflare.com)&emsp;[LeanCloud](https://leancloud.cn/dashboard/applist.html#/apps)
+电子书
+&emsp;[鸠摩](https://jiumodiary.com)
+&emsp;[Library Genesis](http://gen.lib.rus.ec)
 
-## 购物
-[smzdm](https://smzdm.com)
+图片压缩
+&emsp;[tinypng](https://tinypng.com)
+&emsp;[squoosh](https://squoosh.app)

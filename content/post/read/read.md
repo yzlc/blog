@@ -6,48 +6,36 @@ categories: [阅读]
 hiddenFromHomePage: true
 ---
 
-## 基础
-[《深入理解计算机系统》](/tags/csapp)
+基础
+&emsp;[《深入理解计算机系统》](/tags/csapp)
+&emsp;《tcp/ip详解》
+&emsp;[《数据结构与算法》](/tags/算法)
+&emsp;[《快乐的Linux命令行》](/tags/linux)&emsp;[原书](https://billie66.github.io/TLCL/book/)
 
-《tcp/ip详解 卷一、二、三》
+设计
+&emsp;《Java编程思想》
+&emsp;[《大话设计模式》](/tags/设计模式)
+&emsp;《重构 改善既有代码的设计》
+&emsp;[《effective java》](/post/read/effectivejava/effectivejava)
 
-[《数据结构与算法》](/tags/算法)
+虚拟机
+&emsp;[《深入理解Java虚拟机》](/tags/jvm)
 
-[linux](/tags/linux)&emsp;[原书地址](https://billie66.github.io/TLCL/book/)
-## 设计
-《Java编程思想》
+并发
+&emsp;[《Java并发编程实战》](/tags/并发) 
+&emsp;[深入浅出Java Concurrency](http://www.blogjava.net/xylz/archive/2010/07/08/325587.html)
 
-[《大话设计模式》](/tags/设计模式)
+源码
+&emsp;JVM
+&emsp;JDK
+&emsp;框架
 
-《重构 改善既有代码的设计》
+造轮子
+&emsp;...
 
-[《effective java》](/post/read/effectivejava/effectivejava)
-
-## 虚拟机
-[《深入理解Java虚拟机》](/tags/jvm)
-
-## 并发
-[《Java并发编程实战》](/tags/并发) 
-
-[深入浅出 Java Concurrency](http://www.blogjava.net/xylz/archive/2010/07/08/325587.html)
-
-## 源码
-JVM
-
-JDK
-
-框架
-
-## 造轮子
-...
-
-## 新技术
-大数据
-
-分布式缓存
-
-分布式消息服务
-
-分布式计算
-
-软负载均衡
+新技术
+&emsp;大数据
+&emsp;分布式缓存
+&emsp;分布式消息服务
+&emsp;分布式计算
+&emsp;软负载均衡

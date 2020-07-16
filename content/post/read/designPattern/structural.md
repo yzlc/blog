@@ -8,6 +8,7 @@ hiddenFromHomePage: true
 
 ## 装饰模式（Decorator）
 >动态地给一个对象添加一些额外的职责，就增加功能来说，装饰模式比生成子类更为灵活
+
 ![](/images/read/designPattern/structural/decorator.png)
 ### 优点
 - 可以简化原有的类
@@ -15,6 +16,7 @@ hiddenFromHomePage: true
 
 ## 代理模式（Proxy）
 >为其他对象提供一种代理以控制对这个对象的访问
+
 ![](/images/read/designPattern/structural/proxy.png)
 ### 应用
 - 远程代理，也就是为一个对象在不同的地址空间提供局部代表。这样可以隐藏一个对象存在于不同地址空间的事实
@@ -24,6 +26,7 @@ hiddenFromHomePage: true
 
 ## 外观模式（Facade）
 >为子系统中的一组接口提供一个一致的界面，此模式定义了一个高层接口，这个接口使得这一子系统更加容易使用
+
 ![](/images/read/designPattern/structural/facade.png)
 ### 应用
 - 设计初期阶段，层与层之间建立外观Facade
@@ -32,10 +35,12 @@ hiddenFromHomePage: true
 
 ## 适配器模式（Adapter）
 >将一个类的接口转换成客户希望的另外一个接口。Adapter模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作
+
 ![](/images/read/designPattern/structural/adapter.png)
 
 ## 组合模式（Composite）
 >将对象组合成树形结构以表示‘部分-整体’的层次结构。组合模式使得用户对单个对象和组合对象的使用具有一致性
+
 ![](/images/read/designPattern/structural/composite.png)
 ### 应用
 - 需求中是体现部分与整体层次的结构时，希望用户可以忽略组合对象与单个对象的不同，统一地使用组合结构中的所有对象
@@ -46,10 +51,12 @@ hiddenFromHomePage: true
 
 ## 桥接模式（Bridge）
 >将抽象部分与它的实现部分分离，使它们都可以独立地变化
+
 ![](/images/read/designPattern/structural/bridge.png)
 
 ## 享元模式（Flyweight）
 >运用共享技术有效地支持大量细粒度的对象
+
 ![](/images/read/designPattern/structural/flyweight.png)
 ### 应用
 - 如果一个应用程序使用了大量的对象，而大量的这些对象造成了很大的存储开销
