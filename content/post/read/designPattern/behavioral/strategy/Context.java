@@ -1,4 +1,4 @@
-package designPattern.strategy;
+package strategy;
 
 //上下文
 public class Context {

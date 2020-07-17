@@ -1,4 +1,4 @@
-package designPattern.observer.delegate;
+package observer.delegate;
 
 /**
  * 通知者

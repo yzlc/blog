@@ -1,4 +1,4 @@
-package designPattern.templateMethod;
+package templateMethod;
 
 public class ConcreteClassB extends AbstractClass {
     @Override

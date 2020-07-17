@@ -1,4 +1,4 @@
-package designPattern.iterator;
+package iterator;
 
 public abstract class Aggregate {
     abstract Iterator createIterator();

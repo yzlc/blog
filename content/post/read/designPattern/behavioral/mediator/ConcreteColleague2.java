@@ -1,4 +1,4 @@
-package designPattern.mediator;
+package mediator;
 
 public class ConcreteColleague2 extends Colleague {
     public ConcreteColleague2(Mediator mediator) {

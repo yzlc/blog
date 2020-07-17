@@ -1,4 +1,4 @@
-package designPattern.observer.delegate;
+package observer.delegate;
 
 public class GoodNotifier extends Notifier {
     @Override

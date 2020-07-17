@@ -1,4 +1,4 @@
-package designPattern.simpleFactory;
+package simpleFactory;
 
 public class OperationFactory {
     public static Operation createOperate(String operate) {

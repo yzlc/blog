@@ -1,4 +1,4 @@
-package designPattern.decorator;
+package decorator;
 
 public class ConcreteDecoratorA extends Decorator{
     private String addedState;

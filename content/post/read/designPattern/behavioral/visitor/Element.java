@@ -1,4 +1,4 @@
-package designPattern.visitor;
+package visitor;
 
 public abstract class Element {
     abstract void accept(Visitor visitor);

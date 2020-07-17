@@ -1,4 +1,4 @@
-package designPattern.interpreter;
+package interpreter;
 
 public class NonterminalExpression extends AbstractExpression {
     @Override

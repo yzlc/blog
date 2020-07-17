@@ -1,9 +1,9 @@
-package designPattern.abstractFactory;
+package abstractFactory;
 
-import designPattern.util.PropertiesUtil;
+import util.PropertiesUtil;
 
 public class DataAccess {
-    private static final String assemblyName = "designPattern.abstractFactory";
+    private static final String assemblyName = "abstractFactory";
     private static final String db = PropertiesUtil.readValue("app.config", "db");
 
     public static IUser createUser() throws Exception {

@@ -1,4 +1,4 @@
-package designPattern.visitor;
+package visitor;
 
 public class ConcreteElementB extends Element {
     @Override

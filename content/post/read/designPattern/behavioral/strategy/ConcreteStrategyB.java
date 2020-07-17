@@ -1,4 +1,4 @@
-package designPattern.strategy;
+package strategy;
 
 //具体算法B
 public class ConcreteStrategyB extends Strategy {

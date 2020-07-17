@@ -1,4 +1,4 @@
-package designPattern.interpreter;
+package interpreter;
 
 public class TerminalExpression extends AbstractExpression {
     @Override

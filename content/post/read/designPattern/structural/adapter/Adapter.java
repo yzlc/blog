@@ -1,4 +1,4 @@
-package designPattern.adapter;
+package adapter;
 
 public class Adapter extends Target {
     private Adaptee adaptee = new Adaptee();

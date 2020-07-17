@@ -1,4 +1,4 @@
-package designPattern.command;
+package command;
 
 public class ConcreteCommand extends Command {
     public ConcreteCommand(Receiver receiver) {

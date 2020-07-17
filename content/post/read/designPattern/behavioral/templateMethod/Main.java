@@ -1,4 +1,4 @@
-package designPattern.templateMethod;
+package templateMethod;
 
 public class Main {
     public static void main(String[] args) {

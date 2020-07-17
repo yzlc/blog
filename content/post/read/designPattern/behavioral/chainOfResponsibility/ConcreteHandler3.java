@@ -1,4 +1,4 @@
-package designPattern.chainOfResponsibility;
+package chainOfResponsibility;
 
 public class ConcreteHandler3 extends Handler {
     @Override

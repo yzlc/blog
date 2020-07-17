@@ -1,4 +1,4 @@
-package designPattern.simpleFactory;
+package simpleFactory;
 
 public class OperationMul extends Operation {
     @Override

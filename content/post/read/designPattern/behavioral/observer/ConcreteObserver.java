@@ -1,4 +1,4 @@
-package designPattern.observer;
+package observer;
 
 public class ConcreteObserver extends Observer {
     private String name;

@@ -1,4 +1,4 @@
-package designPattern.interpreter;
+package interpreter;
 
 public class Context {
     private String input;

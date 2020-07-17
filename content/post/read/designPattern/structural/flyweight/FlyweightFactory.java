@@ -1,4 +1,4 @@
-package designPattern.flyweight;
+package flyweight;
 
 import java.util.Hashtable;
 

@@ -1,4 +1,4 @@
-package designPattern.flyweight;
+package flyweight;
 
 public class ConcreteFlyweight extends Flyweight {
     @Override

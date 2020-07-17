@@ -1,4 +1,4 @@
-package designPattern.strategy;
+package strategy;
 
 //抽象算法类
 public abstract class Strategy {

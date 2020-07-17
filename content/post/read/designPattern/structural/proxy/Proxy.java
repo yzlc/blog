@@ -1,4 +1,4 @@
-package designPattern.proxy;
+package proxy;
 
 public class Proxy extends Subject {
     RealSubject realSubject;

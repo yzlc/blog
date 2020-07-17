@@ -1,4 +1,4 @@
-package designPattern.observer.delegate;
+package observer.delegate;
 
 import java.util.ArrayList;
 import java.util.List;

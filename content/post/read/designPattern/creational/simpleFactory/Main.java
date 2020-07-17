@@ -1,4 +1,4 @@
-package designPattern.simpleFactory;
+package simpleFactory;
 
 public class Main {
     public static void main(String[] args) {

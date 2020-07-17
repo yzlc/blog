@@ -1,6 +1,6 @@
-package designPattern.factoryMethod;
+package factoryMethod;
 
-import designPattern.simpleFactory.Operation;
+import simpleFactory.Operation;
 
 public class Main {
     public static void main(String[] args) {

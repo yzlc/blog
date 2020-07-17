@@ -1,4 +1,4 @@
-package designPattern.templateMethod;
+package templateMethod;
 
 public abstract class AbstractClass {
     abstract void primitiveOperation1();

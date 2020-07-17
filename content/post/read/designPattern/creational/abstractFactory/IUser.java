@@ -1,4 +1,4 @@
-package designPattern.abstractFactory;
+package abstractFactory;
 
 public interface IUser {
     void insert(User user);

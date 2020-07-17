@@ -1,8 +1,8 @@
-package designPattern.factoryMethod;
+package factoryMethod;
 
-import designPattern.simpleFactory.Operation;
-import designPattern.simpleFactory.OperationAdd;
-import designPattern.simpleFactory.OperationDiv;
+import simpleFactory.Operation;
+import simpleFactory.OperationAdd;
+import simpleFactory.OperationDiv;
 
 public class DivFactory implements IFactory {
     @Override

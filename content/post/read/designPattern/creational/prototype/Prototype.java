@@ -1,4 +1,4 @@
-package designPattern.prototype;
+package prototype;
 
 public abstract class Prototype {
     private String id;

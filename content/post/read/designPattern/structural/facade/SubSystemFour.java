@@ -1,4 +1,4 @@
-package designPattern.facade;
+package facade;
 
 public class SubSystemFour {
     public void methodFour(){

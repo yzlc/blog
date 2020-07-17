@@ -1,4 +1,4 @@
-package designPattern.abstractFactory;
+package abstractFactory;
 
 public class User {
     private int id;

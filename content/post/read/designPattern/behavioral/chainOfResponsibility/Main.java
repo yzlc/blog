@@ -1,4 +1,4 @@
-package designPattern.chainOfResponsibility;
+package chainOfResponsibility;
 
 public class Main {
     public static void main(String[] args) {

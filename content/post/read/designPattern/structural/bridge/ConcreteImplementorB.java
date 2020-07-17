@@ -1,4 +1,4 @@
-package designPattern.bridge;
+package bridge;
 
 public class ConcreteImplementorB extends Implementor {
     @Override

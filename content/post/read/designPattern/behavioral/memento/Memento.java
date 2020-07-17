@@ -1,4 +1,4 @@
-package designPattern.memento;
+package memento;
 
 public class Memento {
     private String state;

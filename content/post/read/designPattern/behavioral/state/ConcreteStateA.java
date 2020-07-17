@@ -1,4 +1,4 @@
-package designPattern.state;
+package state;
 
 public class ConcreteStateA extends State {
     @Override

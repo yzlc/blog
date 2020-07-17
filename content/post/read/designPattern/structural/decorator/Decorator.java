@@ -1,4 +1,4 @@
-package designPattern.decorator;
+package decorator;
 
 public abstract class Decorator extends Component {
     Component component;

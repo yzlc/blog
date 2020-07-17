@@ -1,4 +1,4 @@
-package designPattern.observer;
+package observer;
 
 
 public class ConcreteSubject extends Subject {

@@ -1,4 +1,4 @@
-package designPattern.abstractFactory;
+package abstractFactory;
 
 public interface IDepartment {
     void insert(Department department);

@@ -1,4 +1,4 @@
-package designPattern.iterator;
+package iterator;
 
 public class ConcreteIterator extends Iterator {
     private ConcreteAggregate aggregate;

@@ -1,7 +1,7 @@
-package designPattern.factoryMethod;
+package factoryMethod;
 
-import designPattern.simpleFactory.Operation;
-import designPattern.simpleFactory.OperationAdd;
+import simpleFactory.Operation;
+import simpleFactory.OperationAdd;
 
 public class AddFactory implements IFactory {
     @Override

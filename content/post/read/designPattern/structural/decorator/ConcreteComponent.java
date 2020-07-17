@@ -1,4 +1,4 @@
-package designPattern.decorator;
+package decorator;
 
 public class ConcreteComponent extends Component {
     @Override

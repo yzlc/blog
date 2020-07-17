@@ -1,4 +1,4 @@
-package designPattern.builder;
+package builder;
 
 abstract class Builder {
     abstract void buildPartA();

@@ -1,8 +1,8 @@
-package designPattern.factoryMethod;
+package factoryMethod;
 
-import designPattern.simpleFactory.Operation;
-import designPattern.simpleFactory.OperationAdd;
-import designPattern.simpleFactory.OperationMul;
+import simpleFactory.Operation;
+import simpleFactory.OperationAdd;
+import simpleFactory.OperationMul;
 
 public class MulFactory implements IFactory {
     @Override

@@ -1,6 +1,6 @@
-package designPattern.factoryMethod;
+package factoryMethod;
 
-import designPattern.simpleFactory.Operation;
+import simpleFactory.Operation;
 
 public interface IFactory {
     Operation createOperation();

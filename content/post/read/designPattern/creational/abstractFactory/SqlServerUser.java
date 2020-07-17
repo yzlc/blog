@@ -1,4 +1,4 @@
-package designPattern.abstractFactory;
+package abstractFactory;
 
 public class SqlServerUser implements IUser {
     @Override
