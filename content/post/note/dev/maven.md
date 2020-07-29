@@ -25,6 +25,8 @@ categories: [笔记]
                 <encoding>utf-8</encoding>
                 <source>1.8</source>
                 <target>1.8</target>
+                <!-- 打包跳过测试 -->
+                <!-- <skip>true</skip> -->
             </configuration>
             <!-- 找不到包的错误 -->
             <!-- <compilerArguments>
@@ -33,8 +35,6 @@ categories: [笔记]
                     ${env.JAVA_HOME}/jre/lib/rt.jar;${env.JAVA_HOME}/jre/lib/jce.jar;${env.JAVA_HOME}/jre/lib/jsse.jar
                 </bootclasspath>
             </compilerArguments> -->
-            <!-- 打包跳过测试 -->
-            <!-- <skip>true</skip> -->
         </plugin>
     </plugins>
 </build>

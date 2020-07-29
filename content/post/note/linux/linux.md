@@ -11,11 +11,24 @@ categories: [笔记]
 ## 查看进程运行的完整路径
 `ll /proc/PID`
 
-## 后台运行 
-`nohup xx &`
+## 后台运行
+`nohup xx >/dev/null 2>&1 &`
+
+## 脚本
+```bash
+#!/bin/bash
+day=`date +%Y%m%d`
+echo '日期：'$day
+```
+
+## 定时任务
+```bash
+crontab -e #编辑 分 时 日 月 星期 命令
+crontab -l #查看
+```
 
 ## [命令大全](http://man.linuxde.net/)
-日期 `date`
+日期 `date -d '1 day ago' +%Y%m%d`
 
 日历 `cal`
 

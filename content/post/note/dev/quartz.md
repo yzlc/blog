@@ -135,7 +135,7 @@ public class HelloJob implements Job {
 SimpleTrigger：在具体的时间点执行一次，或者在具体的时间点执行，并且以指定的间隔重复执行若干次。
 - CronTrigger:基于日历的概念启动计划
     - Cron Expressions
-        - 格式：`"Seconds Minutes Hours Day-of-Month Month Day-of-Week Year"`
+        - 格式：`秒 分 时 日 月 星期 年`
         - 示例(每5分钟触发一次):`"0 0/5 - - - ?"`
     - 代码片段
     ```java

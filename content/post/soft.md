@@ -70,3 +70,5 @@ ssh
 
 抓包
 &emsp;[charles](https://charlesproxy.com/latest-release/download.do#)&emsp;[配置](/post/config/win/dbeaver)
+
+[罗技](https://download01.logi.com/web/ftp/pub/techsupport/gaming/LGS_9.02.65_x64_Logitech.exe)
