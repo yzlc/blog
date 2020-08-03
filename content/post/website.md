@@ -44,3 +44,5 @@ CDN
 图片压缩
 &emsp;[tinypng](https://tinypng.com)
 &emsp;[squoosh](https://squoosh.app)
+&emsp;[去底色](https://www.yasuotu.com/mbuttonColor)
+&emsp;[favicon生成](https://realfavicongenerator.net)
