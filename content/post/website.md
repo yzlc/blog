@@ -28,14 +28,13 @@ CDN
 工具
 &emsp;[搬瓦工](https://kiwivm.64clouds.com)
 &emsp;[LeanCloud](https://leancloud.cn/dashboard/applist.html#/apps)
-&emsp;[open](https://yzlc.xyz/api/open)
 
 账号
 &emsp;[临时邮箱](https://temp-mail.org/zh)
 &emsp;[云短信](https://www.materialtools.com)
 
 购物
-&emsp;[什么值得买](https://smzdm.com)
+&emsp;[张大妈](https://smzdm.com)
 
 电子书
 &emsp;[鸠摩](https://jiumodiary.com)
