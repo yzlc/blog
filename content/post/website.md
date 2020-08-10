@@ -28,6 +28,7 @@ CDN
 工具
 &emsp;[搬瓦工](https://kiwivm.64clouds.com)
 &emsp;[LeanCloud](https://leancloud.cn/dashboard/applist.html#/apps)
+&emsp;[open](https://yzlc.xyz/api/open)
 
 账号
 &emsp;[临时邮箱](https://temp-mail.org/zh)
