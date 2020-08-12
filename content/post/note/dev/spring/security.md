@@ -16,27 +16,29 @@ categories: [笔记]
 ## config
 ```java
 @Configuration
-public class MyWebSecurityConfig extends WebSecurityConfigurerAdapter {
-    public static void main(String[] args) {
-        System.out.println(new BCryptPasswordEncoder().encode("admin"));
-    }
-
-    @Override
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication()
-                .withUser("admin")
-                .password("$2a$10$t8FxsToYcBGUDidjA8xHi.lMvRYNFrpNr.Odq2Hz.VarGdzNkFiCS")
-                .authorities("auth")
-                .and()
-                .passwordEncoder(new BCryptPasswordEncoder());
-    }
-
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
                 .anyRequest().authenticated()
                 .and().formLogin().loginProcessingUrl("/login").permitAll()
                 .and().csrf().disable();
+    }
+}
+
+@Configuration
+public class AuthenticationSecurity extends GlobalAuthenticationConfigurerAdapter {
+    public static void main(String[] args) {
+        System.out.println(new BCryptPasswordEncoder().encode("admin"));
+    }
+    @Override
+    public void init(AuthenticationManagerBuilder auth) throws Exception {
+        auth.inMemoryAuthentication()
+                .withUser("admin")
+                .password("$2a$10$t8FxsToYcBGUDidjA8xHi.lMvRYNFrpNr.Odq2Hz.VarGdzNkFiCS")
+                .authorities("auth")
+                .and()
+                .passwordEncoder(new BCryptPasswordEncoder());
     }
 }
 ```
