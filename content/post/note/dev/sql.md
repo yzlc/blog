@@ -127,3 +127,14 @@ FROM SCOTT.EMP T
 ```sql
 SELECT SUBSTR ('123.456', INSTR ('123.456', '.', 1, 1)+1) FROM DUAL;
 ```
+
+## 窗口函数
+### 语法
+`<函数> over (partition by <分组列> order by <排序列>)`
+
+### 分类
+- 窗口函数（行数不变）
+  - rank（并列占位）
+  - dense_rank（并列不占位）
+  - row_number（不并列）
+- 聚合函数（行数变，作用范围自身及以上数据）：sum，avg，count，max，min
