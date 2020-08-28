@@ -72,3 +72,6 @@ ssh
 &emsp;[charles](https://charlesproxy.com/latest-release/download.do#)&emsp;[配置](/post/config/win/charles)
 
 [罗技](https://download01.logi.com/web/ftp/pub/techsupport/gaming/LGS_9.02.65_x64_Logitech.exe)
+
+vpn
+&emsp;[FortiClient](https://fortinet-public.s3.cn-north-1.amazonaws.com.cn/FortiClient_Download/FortiClient_5_6_6_windows_and_macos_system/FortiClientSetup_5.6.6.1167_vpnonly_x64.exe)

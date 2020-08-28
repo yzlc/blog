@@ -5,6 +5,9 @@ tags: [linux]
 categories: [笔记]
 ---
 
+## 查找
+`find / -type d -name *tomcat* 2>/dev/null`
+
 ## 按文件/目录大小排序  
 `du -sh * | sort -rn | head`
 
