@@ -1,5 +1,5 @@
 ---
-title: "常用sql"
+title: "sql"
 date: 2019-05-04T10:32:33+08:00
 tags: [sql]
 categories: [笔记]
@@ -138,3 +138,7 @@ SELECT SUBSTR ('123.456', INSTR ('123.456', '.', 1, 1)+1) FROM DUAL;
   - dense_rank（并列不占位）
   - row_number（不并列）
 - 聚合函数（行数变，作用范围自身及以上数据）：sum，avg，count，max，min
+
+## 优化
+1. 评估查询条件、表关联、子查询对性能的影响
+2. 针对性能差的部分做优化（加索引、窗口函数）
