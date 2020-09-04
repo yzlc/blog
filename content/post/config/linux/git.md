@@ -19,4 +19,4 @@ categories: [配置]
 ## 仓库授权
 `chown -R git:git sample.git`
 ## 下载
-`git clone ssh://git@server:port/srv/sample.git`
+`git clone --depth 1 --recursive ssh://git@server:port/srv/sample.git`
