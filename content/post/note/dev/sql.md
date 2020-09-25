@@ -142,3 +142,9 @@ SELECT SUBSTR ('123.456', INSTR ('123.456', '.', 1, 1)+1) FROM DUAL;
 ## 优化
 1. 评估查询条件、表关联、子查询对性能的影响
 2. 针对性能差的部分做优化（加索引、窗口函数）
+3. 清除缓存再测试
+    ```sql
+    ALTER SYSTEM FLUSH SHARED_POOL;
+    ALTER SYSTEM FLUSH BUFFER_CACHE;
+    ALTER SYSTEM FLUSH GLOBAL CONTEXT;
+    ```
