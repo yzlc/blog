@@ -53,6 +53,11 @@ EXCEPTION
         rollback;
 end;
 ```
+### 命令行调试
+```sql
+set serveroutput on;--dbms_output.put_line
+exec sync_table_from_user;
+```
 
 ## 触发器
 ```sql
@@ -148,3 +153,20 @@ SELECT SUBSTR ('123.456', INSTR ('123.456', '.', 1, 1)+1) FROM DUAL;
     ALTER SYSTEM FLUSH BUFFER_CACHE;
     ALTER SYSTEM FLUSH GLOBAL CONTEXT;
     ```
+
+## 分区
+```sql
+CREATE TABLE "TABLE"(...)
+partition by range (_DATE)
+interval (NUMTOYMINTERVAL(1, 'MONTH'))
+(partition P1 values less than 
+    (TO_DATE(' 2020-01-01 00:00:00', 
+        'SYYYY-MM-DD HH24:MI:SS',
+        'NLS_CALENDAR=GREGORIAN'))
+);
+```
+
+## 查版本
+```sql
+select * from product_component_version;
+```
