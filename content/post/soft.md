@@ -16,7 +16,7 @@ PDF
 &emsp;[7z](https://7-zip.org/a/7z1900-x64.exe)&emsp;[地址2](https://dl.softmgr.qq.com/original/Compression/7z1900-x64.exe)
 
 版本控制
-&emsp;[git](https://git-scm.com/downloads)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/Git-2.25.1-64-bit.exe)&emsp;[svn](https://osdn.net/projects/tortoisesvn/storage/1.13.1/Application/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi/)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi)
+&emsp;[git](https://git-scm.com/downloads)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/Git-2.25.1-64-bit.exe)&emsp;[svn](https://tortoisesvn.net/downloads.html)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi)
 
 编辑器
 &emsp;[vscode](https://code.visualstudio.com/docs/?dv=winzip)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/VSCodeUserSetup-x64-1.40.2.exe)
