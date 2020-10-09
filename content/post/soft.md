@@ -13,7 +13,7 @@ PDF
 &emsp;[电子书转换](https://calibre-ebook.com/download_windows)
 
 压缩
-&emsp;[7z](https://7-zip.org/a/7z1900-x64.exe)&emsp;[地址2](https://dl.softmgr.qq.com/original/Compression/7z1900-x64.exe)
+&emsp;[7z](https://7-zip.org)&emsp;[地址2](https://dl.softmgr.qq.com/original/Compression/7z1900-x64.exe)
 
 版本控制
 &emsp;[git](https://git-scm.com/downloads)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/Git-2.25.1-64-bit.exe)&emsp;[svn](https://tortoisesvn.net/downloads.html)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/TortoiseSVN-1.13.1.28686-x64-svn-1.13.0.msi)
