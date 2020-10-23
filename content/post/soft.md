@@ -9,8 +9,8 @@ categories: [软件]
 &emsp;[office](https://otp.landian.vip/redirect/download.html)
 
 PDF
-&emsp;[SumatraPDF](https://sumatrapdfreader.org/downloadafter.html)&emsp;[地址2](https://sm.myapp.com/original/Office/SumatraPDF-3.1.2-64-install.exe)&emsp;[pdf生成目录](https://github.com/ifnoelse/pdf-bookmark)
-&emsp;[电子书转换](https://calibre-ebook.com/download_windows)
+&emsp;[阅读器](https://sumatrapdfreader.org/downloadafter.html)&emsp;[地址2](https://sm.myapp.com/original/Office/SumatraPDF-3.1.2-64-install.exe)&emsp;[生成目录](https://github.com/ifnoelse/pdf-bookmark)
+&emsp;[格式转换](https://calibre-ebook.com/download_windows)
 
 压缩
 &emsp;[7z](https://7-zip.org)&emsp;[地址2](https://dl.softmgr.qq.com/original/Compression/7z1900-x64.exe)
@@ -49,9 +49,9 @@ ssh
 &emsp;[potPlayer](https://videohelp.com/software/PotPlayer/old-versions#download)&emsp;[地址2](https://dl.softmgr.qq.com/original/Video/PotPlayerSetup64_1.7.16291_1.exe)
 
 路由器
-&emsp;[k2p固件](https://github.com/hanwckf/rt-n56u)
+&emsp;[k2p](https://github.com/hanwckf/rt-n56u)
 
-系统优化
+win10优化
 &emsp;[Win10-Initial-Setup-Script](https://github.com/yzlc/Win10-Initial-Setup-Script)
 
 开发
@@ -61,7 +61,7 @@ ssh
 服务器
 &emsp;[tomcat7](https://tomcat.apache.org/download-70.cgi)&emsp;[配置](/post/config/win/tomcat)
 
-数据库工具
+数据库
 &emsp;[dbeaver](https://microsoft.com/store/apps/9PNKDR50694P)&emsp;[配置](/post/config/win/dbeaver)
 &emsp;[plsql](/post/config/win/plsql/)
 
