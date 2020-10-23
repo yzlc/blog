@@ -52,7 +52,7 @@ ssh
 &emsp;[k2p固件](https://github.com/hanwckf/rt-n56u)
 
 系统优化
-&emsp;[360清理大师](http://down.360safe.com/360CleanMasterPC/Setup_360CleanMaster.exe)
+&emsp;[Win10-Initial-Setup-Script](https://github.com/yzlc/Win10-Initial-Setup-Script)
 
 开发
 &emsp;[idea](https://jetbrains.com/idea/download/download-thanks.html?platform=windowsZip&code=IIC)&emsp;[配置](/post/config/win/idea)

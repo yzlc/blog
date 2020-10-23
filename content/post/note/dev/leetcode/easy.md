@@ -67,3 +67,62 @@ public ListNode reverse(ListNode head) {
     return prev;
 }
 ```
+### 环形链表
+>龟兔赛跑解法
+```java
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+        if (head == null||head.next == null) return false;
+        ListNode slow = head;
+        ListNode fast = head.next;
+        while(slow!=fast){
+            if(fast==null||fast.next==null)
+                return false;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return true;
+    }
+}
+```
+
+## 树
+### [验证二叉搜索树](https://segmentfault.com/a/1190000022041701)
+>left(父节点左边界,父节点的值) right(父节点的值,父节点右边界)
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public static boolean isValidBST(TreeNode node,Integer lower,Integer upper) {
+        if (node==null)return true;
+        int val = node.val;
+        if (lower!=null&&val<=lower)return false;
+        if (upper!=null&&val>=upper)return false;
+        if (!isValidBST(node.left,lower,val))return false;
+        if (!isValidBST(node.right,val,upper))return false;
+        return true;
+    }
+
+    public static boolean isValidBST(TreeNode root) {
+        return isValidBST(root,null,null);
+    }
+}
+```
