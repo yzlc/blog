@@ -7,7 +7,7 @@ categories: [软件]
 
 必备
 &emsp;[7z](https://7-zip.org)&emsp;[地址2](https://dl.softmgr.qq.com/original/Compression/7z1900-x64.exe)
-&emsp;[win10优化](https://github.com/yzlc/Win10-Initial-Setup-Script)
+&emsp;[win10优化](https://github.com/yzlc/Win10-Initial-Setup-Script/archive/master.zip)
 &emsp;[vscode](https://code.visualstudio.com/docs/?dv=win)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/VSCodeUserSetup-x64-1.40.2.exe)
 &emsp;[aria2](/files/soft/aria2.zip)
 &emsp;[git](https://git-scm.com/download/win)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/Git-2.25.1-64-bit.exe)
@@ -17,7 +17,7 @@ categories: [软件]
 开发
 &emsp;[idea](https://jetbrains.com/idea/download/download-thanks.html?platform=windowsZip&code=IIC)&emsp;[配置](/post/config/win/idea)
 &emsp;[jdk8](https://oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/jdk-8u191-windows-x64-8.0.1910.12.exe)&emsp;[配置](/post/config/win/jdk8)
-&emsp;[tomcat7](https://tomcat.apache.org/download-70.cgi)&emsp;[配置](/post/config/win/tomcat)
+&emsp;[tomcat7](https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.92/bin/apache-tomcat-7.0.92-windows-x64.zip)&emsp;[配置](/post/config/win/tomcat)
 &emsp;[plsql](/post/config/win/plsql/)
 &emsp;[jdgui](https://github.com/java-decompiler/jd-gui/releases)
 
