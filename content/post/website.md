@@ -8,7 +8,7 @@ categories: [网站]
 
 视频
 &emsp;[哔哩哔哩](https://bilibili.com)
-&emsp;[樱花动漫](https://yhdm.tv)
+&emsp;[樱花动漫](http://yhdm.tv)
 &emsp;[K哩K哩](https://klkl.tv)
 
 翻译
