@@ -20,6 +20,7 @@ categories: [软件]
 &emsp;[tomcat7](https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.92/bin/apache-tomcat-7.0.92-windows-x64.zip)&emsp;[配置](/post/config/win/tomcat)
 &emsp;[plsql](/post/config/win/plsql/)
 &emsp;[jdgui](https://github.com/java-decompiler/jd-gui/releases)
+&emsp;[大文本查看](http://ghisler.fileburst.com/addons/lister32.zip)
 
 其它
 &emsp;[ss账号](https://github.com/selierlin/Share-SSR-V2ray)
