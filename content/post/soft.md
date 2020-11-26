@@ -21,6 +21,7 @@ categories: [软件]
 &emsp;[plsql](/post/config/win/plsql/)
 &emsp;[jdgui](https://github.com/java-decompiler/jd-gui/releases)
 &emsp;[大文本查看](http://ghisler.fileburst.com/addons/lister32.zip)
+&emsp;[PlantUML](/post/config/win/plsql/PlantUML)
 
 其它
 &emsp;[ss账号](https://github.com/selierlin/Share-SSR-V2ray)
