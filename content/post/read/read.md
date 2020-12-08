@@ -1,8 +1,8 @@
 ---
-title: "阅读"
+title: "read"
 date: 2020-06-24T09:13:33+08:00
-tags: [阅读]
-categories: [阅读]
+tags: [read]
+categories: [read]
 hiddenFromHomePage: true
 ---
 

@@ -2,7 +2,7 @@
 title: "结构型模式"
 date: 2019-07-15T12:32:28+08:00
 tags: [设计模式]
-categories: [阅读]
+categories: [read]
 hiddenFromHomePage: true
 ---
 

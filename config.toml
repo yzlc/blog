@@ -49,20 +49,20 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "categories"
   url = "/categories/"
 [[menu.main]]
-  name = "软件"
+  name = "soft"
   weight = 40
   identifier = "soft"
   url = "/post/soft"
 [[menu.main]]
-  name = "阅读"
+  name = "read"
   weight = 40
   identifier = "read"
   url = "/post/read/read"
 [[menu.main]]
-  name = "网站"
+  name = "web"
   weight = 40
-  identifier = "website"
-  url = "/post/website"
+  identifier = "web"
+  url = "/post/web"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update
@@ -82,7 +82,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   archivePaginate = 50
 
   # show 'xx Posts In Total' in archive page ?            # 是否在归档页显示文章的总数
-  showArchiveCount = false
+  showArchiveCount = true
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
