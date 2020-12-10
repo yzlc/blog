@@ -44,3 +44,4 @@ categories: [read]
 - 捕获各种事件
 
 ## core：
+>定义了资源的访问方式
