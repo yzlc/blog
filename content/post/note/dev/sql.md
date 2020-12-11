@@ -170,3 +170,18 @@ interval (NUMTOYMINTERVAL(1, 'MONTH'))
 ```sql
 select * from product_component_version;
 ```
+
+## 循环
+```sql
+DECLARE
+i number := 0;
+BEGIN
+for i in 1 .. 3000 loop
+
+insert into table(...)values(...);
+
+--dbms_output.put_line(i);
+end loop;
+commit;
+END;
+```
