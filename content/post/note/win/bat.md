@@ -19,3 +19,13 @@ categories: [笔记]
 Set ws = CreateObject("Wscript.Shell")
 ws.run "cmd /c .\startup.bat",vbhide
 ```
+
+## 启动
+```bat
+start "test" java -jar -Dfile.encoding=utf8 test.jar
+```
+
+## 停止
+```bat
+TASKKILL /FI "WINDOWTITLE eq test"
+```
