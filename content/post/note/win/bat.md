@@ -29,3 +29,10 @@ start "test" java -jar -Dfile.encoding=utf8 test.jar
 ```bat
 TASKKILL /FI "WINDOWTITLE eq test"
 ```
+
+## 代理
+```bat
+set https_proxy=socks5://localhost:10808
+echo %https_proxy%
+set https_proxy=
+```
