@@ -25,20 +25,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and().csrf().disable();
     }
 }
+```
 
-@Configuration
-public class AuthenticationSecurity extends GlobalAuthenticationConfigurerAdapter {
-    public static void main(String[] args) {
-        System.out.println(new BCryptPasswordEncoder().encode("admin"));
-    }
-    @Override
-    public void init(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication()
-                .withUser("admin")
-                .password("$2a$10$t8FxsToYcBGUDidjA8xHi.lMvRYNFrpNr.Odq2Hz.VarGdzNkFiCS")
-                .authorities("auth")
-                .and()
-                .passwordEncoder(new BCryptPasswordEncoder());
-    }
-}
+```properties
+spring.security.user.name=admin
+spring.security.user.password={bcrypt}$2a$10$io1baOv5SiP2G0DR.Dye.OQjtj1W8Aba31pGecyYdxgoXLkLjdfm.
 ```
