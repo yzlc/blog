@@ -15,28 +15,29 @@ $env:SCOOP='C:\Scoop'
 
 iwr -useb get.scoop.sh | iex
 
-scoop install aria2
-scoop install git
+scoop install 7zip -g
+scoop install aria2 -g
+scoop install git -g
 
 scoop bucket add extras
-scoop install vscode
-scoop install SumatraPDF
-scoop install MobaXterm
+scoop install vscode -g
+scoop install SumatraPDF -g
+scoop install MobaXterm -g
 
 scoop bucket add devbox https://github.com/dennislloydjr/scoop-bucket-devbox.git
-scoop install tomcat7
+scoop install tomcat7 -g
 
 
 scoop bucket add java
-scoop install oraclejdk8u
+scoop install oraclejdk8u -g
 
-scoop install idea-ultimate
+scoop install idea-ultimate -g
 #社区版
-#scoop install idea
+#scoop install idea -g
 
-scoop install svn
-scoop install battle
+scoop install svn -g
+scoop install battle -g
 
 scoop bucket add dorado https://github.com/chawyehsu/dorado
-scoop install dorado/wechat
+scoop install dorado/wechat -g
 ```

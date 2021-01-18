@@ -32,3 +32,16 @@ categories: [笔记]
 ## 常见错误
 - Invalid bound statement (not found)  
 只有Mapper结尾的xml文件才会被Mybatis扫描到
+
+## 去除多余的and或者or
+```xml
+<trim prefix="WHERE (" suffix=")" prefixOverrides="AND |OR ">
+    <if test="null != name and '' != name ">
+        or name = #{name,jdbcType=VARCHAR}
+    </if>
+    <if test="null != mobile and '' != mobile ">
+        or mobile = #{mobile,jdbcType=VARCHAR}
+    </if>
+</trim>
+and status = 1
+```
