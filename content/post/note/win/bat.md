@@ -8,6 +8,30 @@ categories: [笔记]
 ## 变量
 - 用户目录：`%UserProfile%`
 
+## 删目录、文件
+```bat
+rd /s/q dir
+del /s/q file
+```
+
+## 复制目录
+```bat
+xcopy src dest\src /S /E /y /q
+```
+
+## 日期
+```bat
+set year=%date:~0,4%
+set month=%date:~5,2%
+set day=%date:~8,2%
+set date=%year%%month%%day%
+```
+
+## utf8
+```bat
+chcp 65001
+```
+
 ## 管理员
 ```bat
 @echo off&(cd/d "%~dp0")&(cacls "%SystemDrive%\System Volume Information" >nul 2>&1)||(start "" mshta vbscript:CreateObject^("Shell.Application"^).ShellExecute^("%~snx0"," %*","","runas",1^)^(window.close^)&exit /b)

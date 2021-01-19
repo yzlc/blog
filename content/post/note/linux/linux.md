@@ -14,6 +14,9 @@ categories: [笔记]
 ## 查看进程运行的完整路径
 `ll /proc/PID`
 
+## 杀进程
+`pkill -f 进程名称`
+
 ## 后台运行
 `nohup xx >/dev/null 2>&1 &`
 
