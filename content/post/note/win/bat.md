@@ -7,6 +7,8 @@ categories: [笔记]
 
 ## 变量
 - 用户目录：`%UserProfile%`
+- 开机启动（用户）：`%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`
+- 开机启动：`%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Startup`
 
 ## 删目录、文件
 ```bat
