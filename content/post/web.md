@@ -19,6 +19,7 @@ categories: [网站]
 
 开发
 &emsp;[工具大全](https://www.bejson.com)
+&emsp;[SQL转Java](https://java.bejson.com/generator)
 &emsp;[maven](https://mvnrepository.com)
 &emsp;[leetcode](https://leetcode.com)
 &emsp;[github](https://github.com)
