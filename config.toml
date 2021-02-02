@@ -49,17 +49,17 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "categories"
   url = "/categories/"
 [[menu.main]]
-  name = "soft"
+  name = "软件"
   weight = 40
   identifier = "soft"
   url = "/post/soft"
 [[menu.main]]
-  name = "read"
+  name = "读"
   weight = 40
   identifier = "read"
   url = "/post/read/read"
 [[menu.main]]
-  name = "web"
+  name = "网址"
   weight = 40
   identifier = "web"
   url = "/post/web"

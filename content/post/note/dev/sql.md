@@ -2,7 +2,7 @@
 title: "sql"
 date: 2019-05-04T10:32:33+08:00
 tags: [sql]
-categories: [笔记]
+categories: [note]
 ---
 
 ## 建表

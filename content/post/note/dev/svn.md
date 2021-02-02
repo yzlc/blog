@@ -2,7 +2,7 @@
 title: "svn"
 date: 2019-02-08T10:32:33+08:00
 tags: [svn]
-categories: [笔记]
+categories: [note]
 ---
 
 ## 常见错误

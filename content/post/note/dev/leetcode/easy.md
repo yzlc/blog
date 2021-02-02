@@ -2,7 +2,7 @@
 title: "leetcode初级算法"
 date: 2020-09-10T10:52:33+08:00
 tags: [算法]
-categories: [笔记]
+categories: [note]
 ---
 
 ## 数组

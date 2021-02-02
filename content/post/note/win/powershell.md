@@ -2,7 +2,7 @@
 title: "powershell"
 date: 2020-12-28T15:41:10+08:00
 tags: [powershell]
-categories: [笔记]
+categories: [note]
 ---
 
 ## 代理

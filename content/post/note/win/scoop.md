@@ -2,10 +2,10 @@
 title: "scoop"
 date: 2020-12-31T17:16:10+08:00
 tags: [scoop]
-categories: [笔记]
+categories: [note]
 ---
 
-## 脚本
+## script
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
@@ -17,6 +17,7 @@ iwr -useb get.scoop.sh | iex
 
 scoop install 7zip
 scoop install aria2
+scoop config aria2-enabled false
 scoop install git
 
 scoop bucket add yzlc https://github.com/yzlc/scoop
@@ -28,7 +29,7 @@ scoop install battle
 scoop bucket add extras
 scoop install vscode
 scoop install sumatrapdf
-scoop install bobaXterm
+scoop install mobaXterm
 scoop install tortoisesvn
 scoop install idea-ultimate
 

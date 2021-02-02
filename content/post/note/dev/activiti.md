@@ -2,7 +2,7 @@
 title: "activiti"
 date: 2020-07-29T16:07:33+08:00
 tags: [activiti]
-categories: [笔记]
+categories: [note]
 ---
 
 >工作流开源框架

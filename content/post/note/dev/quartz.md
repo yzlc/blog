@@ -2,7 +2,7 @@
 title: "quartz"
 date: 2019-02-08T10:32:33+08:00
 tags: [quartz]
-categories: [笔记]
+categories: [note]
 ---
 
 >[quartz](http://quartz-scheduler.org/)Java下的一种作业控制开源框架。

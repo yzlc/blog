@@ -2,7 +2,7 @@
 title: "spring Security"
 date: 2020-08-06T15:01:33+08:00
 tags: [spring]
-categories: [笔记]
+categories: [note]
 ---
 
 ## maven

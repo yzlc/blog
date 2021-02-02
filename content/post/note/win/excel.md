@@ -2,7 +2,7 @@
 title: "excel"
 date: 2020-04-27T10:32:33+08:00
 tags: [excel]
-categories: [笔记]
+categories: [note]
 ---
 
 ### 列出所有工作表名称

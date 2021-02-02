@@ -2,7 +2,7 @@
 title: "正则表达式"
 date: 2019-05-06T10:32:33+08:00
 tags: [正则表达式]
-categories: [笔记]
+categories: [note]
 ---
 
 ## 匹配行

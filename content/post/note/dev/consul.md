@@ -2,7 +2,7 @@
 title: "consul"
 date: 2020-08-11T10:29:33+08:00
 tags: [consul]
-categories: [笔记]
+categories: [note]
 ---
 
 ## 单节点

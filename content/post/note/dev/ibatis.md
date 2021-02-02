@@ -2,7 +2,7 @@
 title: "ibatis"
 date: 2019-05-02T10:32:33+08:00
 tags: [ibatis]
-categories: [笔记]
+categories: [note]
 ---
 
 ## 批量merge
