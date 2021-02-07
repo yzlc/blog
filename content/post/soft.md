@@ -5,6 +5,8 @@ tags: [软件]
 categories: [软件]
 ---
 
+[scoop](https://yzlc.buzz/post/note/win/scoop/)
+
 必备
 &emsp;[7z](https://7-zip.org)&emsp;[地址2](https://dl.softmgr.qq.com/original/Compression/7z1900-x64.exe)
 &emsp;[vscode](https://code.visualstudio.com/docs/?dv=win64)&emsp;[地址2](https://dl.softmgr.qq.com/original/Development/VSCodeUserSetup-x64-1.40.2.exe)
