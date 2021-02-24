@@ -50,3 +50,7 @@ java
 &emsp;[压缩](https://tinypng.com)
 &emsp;[去底色](https://www.yasuotu.com/mbuttonColor)
 &emsp;[favicon](https://realfavicongenerator.net)
+
+音乐
+&emsp;[下载](http://tool.liumingye.cn/music/?page=searchPage)
+&emsp;[音乐标签](https://www.cnblogs.com/vinlxc/p/11347744.html)
