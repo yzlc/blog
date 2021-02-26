@@ -34,6 +34,7 @@ java
 &emsp;[LeanCloud](https://leancloud.cn/dashboard/applist.html#/apps)
 &emsp;[cloudflare](https://dash.cloudflare.com)
 &emsp;[![api](/favicon.ico)](https://yzlc.xyz/api)
+&emsp;[网站历史档案](https://web.archive.org)
 
 账号
 &emsp;[临时邮箱](https://temp-mail.org/zh)

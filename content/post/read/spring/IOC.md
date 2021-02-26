@@ -5,7 +5,9 @@ tags: [spring]
 categories: [read]
 ---
 
-参考：[Spring分析](https://developer.ibm.com/zh/articles/j-lo-spring-principle/)
+参考
+- [Spring分析](https://developer.ibm.com/zh/articles/j-lo-spring-principle/)
+- [请别再问Spring Bean的生命周期了！](https://www.jianshu.com/p/1dec08d290c1)
 
 思想：把对象创建和调用交给spring管理，降低耦合
 
@@ -99,13 +101,7 @@ public void refresh() throws BeansException, IllegalStateException {
 
             // Last step: publish corresponding event.
             finishRefresh();
-        }
-
-        catch (BeansException ex) {
-            if (logger.isWarnEnabled()) {
-                logger.warn("Exception encountered during context initialization - " +
-                        "cancelling refresh attempt: " + ex);
-            }
+        } catch (BeansException ex) {
 
             // Destroy already created singletons to avoid dangling resources.
             destroyBeans();
@@ -115,9 +111,7 @@ public void refresh() throws BeansException, IllegalStateException {
 
             // Propagate exception to caller.
             throw ex;
-        }
-
-        finally {
+        } finally {
             // Reset common introspection caches in Spring's core, since we
             // might not ever need metadata for singleton beans anymore...
             resetCommonCaches();
@@ -139,8 +133,7 @@ protected final void refreshBeanFactory() throws BeansException {
         customizeBeanFactory(beanFactory);
         loadBeanDefinitions(beanFactory);//加载、解析Bean的定义
         this.beanFactory = beanFactory;
-    }
-    catch (IOException ex) {
+    } catch (IOException ex) {
         throw new ApplicationContextException("I/O error parsing bean definition source for " + getDisplayName(), ex);
     }
 }
@@ -154,10 +147,6 @@ protected final void refreshBeanFactory() throws BeansException {
 `DefaultListableBeanFactory`
 ```java
 public void preInstantiateSingletons() throws BeansException {
-    if (logger.isTraceEnabled()) {
-        logger.trace("Pre-instantiating singletons in " + this);
-    }
-
     // Iterate over a copy to allow for init methods which in turn register new bean definitions.
     // While this may not be part of the regular factory bootstrap, it does otherwise work fine.
     List<String> beanNames = new ArrayList<>(this.beanDefinitionNames);
@@ -175,8 +164,7 @@ public void preInstantiateSingletons() throws BeansException {
                         isEagerInit = AccessController.doPrivileged(
                                 (PrivilegedAction<Boolean>) ((SmartFactoryBean<?>) factory)::isEagerInit,
                                 getAccessControlContext());
-                    }
-                    else {
+                    } else {
                         isEagerInit = (factory instanceof SmartFactoryBean &&
                                 ((SmartFactoryBean<?>) factory).isEagerInit());
                     }
@@ -184,28 +172,118 @@ public void preInstantiateSingletons() throws BeansException {
                         getBean(beanName);
                     }
                 }
-            }
-            else {
+            } else {
                 getBean(beanName);//创建实例
-            }
-        }
-    }
-
-    // Trigger post-initialization callback for all applicable beans...
-    for (String beanName : beanNames) {
-        Object singletonInstance = getSingleton(beanName);
-        if (singletonInstance instanceof SmartInitializingSingleton) {
-            SmartInitializingSingleton smartSingleton = (SmartInitializingSingleton) singletonInstance;
-            if (System.getSecurityManager() != null) {
-                AccessController.doPrivileged((PrivilegedAction<Object>) () -> {
-                    smartSingleton.afterSingletonsInstantiated();
-                    return null;
-                }, getAccessControlContext());
-            }
-            else {
-                smartSingleton.afterSingletonsInstantiated();
             }
         }
     }
 }
 ```
+
+`AbstractAutowireCapableBeanFactory`
+```java
+protected Object doCreateBean(String beanName, RootBeanDefinition mbd, @Nullable Object[] args) throws BeanCreationException {
+    // Instantiate the bean.
+    BeanWrapper instanceWrapper = null;
+    if (instanceWrapper == null) {
+        instanceWrapper = createBeanInstance(beanName, mbd, args);//实例化阶段
+    }
+
+    // Initialize the bean instance.
+    Object exposedObject = bean;
+    try {
+        populateBean(beanName, mbd, instanceWrapper);//属性赋值阶段
+        exposedObject = initializeBean(beanName, exposedObject, mbd);//初始化阶段
+    }
+}
+```
+
+## 扩展点
+### 第一大类：影响多个Bean的接口
+#### `InstantiationAwareBeanPostProcessor`
+>作用于实例化阶段的前后
+
+```java
+@Override
+protected Object createBean(String beanName, RootBeanDefinition mbd, @Nullable Object[] args) throws BeanCreationException {
+    try {
+        // Give BeanPostProcessors a chance to return a proxy instead of the target bean instance.
+        Object bean = resolveBeforeInstantiation(beanName, mbdToUse);// postProcessBeforeInstantiation方法调用点
+        if (bean != null) {
+            return bean;
+        }
+    }
+    
+    try {   
+        Object beanInstance = doCreateBean(beanName, mbdToUse, args);
+        if (logger.isTraceEnabled()) {
+            logger.trace("Finished creating instance of bean '" + beanName + "'");
+        }
+        return beanInstance;
+    }
+}
+
+protected void populateBean(String beanName, RootBeanDefinition mbd, @Nullable BeanWrapper bw) {
+   // Give any InstantiationAwareBeanPostProcessors the opportunity to modify the
+   // state of the bean before properties are set. This can be used, for example,
+   // to support styles of field injection.
+   boolean continueWithPropertyPopulation = true;
+   if (!mbd.isSynthetic() && hasInstantiationAwareBeanPostProcessors()) {
+      for (BeanPostProcessor bp : getBeanPostProcessors()) {
+         if (bp instanceof InstantiationAwareBeanPostProcessor) {
+            InstantiationAwareBeanPostProcessor ibp = (InstantiationAwareBeanPostProcessor) bp;
+            if (!ibp.postProcessAfterInstantiation(bw.getWrappedInstance(), beanName)) {// postProcessAfterInstantiation方法调用点
+               continueWithPropertyPopulation = false;
+               break;
+            }
+         }
+      }
+   }
+}
+
+```
+
+#### `BeanPostProcessor`
+>作用于初始化阶段的前后
+
+执行顺序：PriorityOrdered > Ordered
+
+
+### 第二大类：只调用一次的接口
+#### Aware
+>让我们能够拿到Spring容器中的一些资源
+
+Aware Group1
+- BeanNameAware
+- BeanClassLoaderAware
+- BeanFactoryAware
+
+Aware Group2
+- EnvironmentAware
+- EmbeddedValueResolverAware：实现该接口能够获取Spring EL解析器，用户的自定义注解需要支持spel表达式的时候使用
+- ApplicationContextAware(ResourceLoaderAware\ApplicationEventPublisherAware\MessageSourceAware)
+
+```java
+// 初始化阶段
+protected Object initializeBean(final String beanName, final Object bean, @Nullable RootBeanDefinition mbd) {
+    invokeAwareMethods(beanName, bean);// Group1中的三个Bean开头的Aware
+
+    Object wrappedBean = bean;
+    
+    // 这里调用的是Group2中的几个Aware，
+    // 而实质上这里就是前面所说的BeanPostProcessor的调用点！
+    // 这里是通过BeanPostProcessor（ApplicationContextAwareProcessor）实现的。
+    wrappedBean = applyBeanPostProcessorsBeforeInitialization(wrappedBean, beanName);
+    
+    invokeInitMethods(beanName, wrappedBean, mbd);// InitializingBean调用点
+    
+    wrappedBean = applyBeanPostProcessorsAfterInitialization(wrappedBean, beanName);// BeanPostProcessor的另一个调用点
+
+    return wrappedBean;
+}
+```
+
+#### 生命周期接口
+`InitializingBean`：对应生命周期的初始化阶段
+
+`DisposableBean`：对应生命周期的销毁阶段，以ConfigurableApplicationContext#close()方法作为入口
