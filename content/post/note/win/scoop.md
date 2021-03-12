@@ -22,9 +22,12 @@ scoop install git
 
 scoop bucket add yzlc https://github.com/yzlc/scoop
 scoop install aria2Conf
-scoop install wechat
 scoop install tomcat7
 scoop install battle
+
+scoop bucket add kkzzhizhou https://github.com/kkzzhizhou/scoop-zapps
+scoop install wechat
+#scoop install DingTalk
 
 scoop bucket add extras
 scoop install vscode
