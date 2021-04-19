@@ -1,4 +1,4 @@
-baseURL = "https://yzlc.xyz/"
+baseURL = "https://yzlc.buzz/"
 languageCode = "en"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "YZLC"
@@ -59,7 +59,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "read"
   url = "/post/read/read"
 [[menu.main]]
-  name = "网址"
+  name = "网站"
   weight = 40
   identifier = "web"
   url = "/post/web"

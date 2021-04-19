@@ -33,7 +33,6 @@ java
 &emsp;[搬瓦工](https://kiwivm.64clouds.com)
 &emsp;[LeanCloud](https://leancloud.cn/dashboard/applist.html#/apps)
 &emsp;[cloudflare](https://dash.cloudflare.com)
-&emsp;[![api](/favicon.ico)](https://yzlc.xyz/api)
 &emsp;[网站历史档案](https://web.archive.org)
 
 账号

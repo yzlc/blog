@@ -25,7 +25,7 @@ categories: [配置]
 2. 编辑配置文件  
 `vi /usr/local/caddy/Caddyfile`
     ```json
-    yzlc.xyz, www.yzlc.xyz
+    yzlc.buzz, www.yzlc.buzz
     {
         gzip
         root /var/www
