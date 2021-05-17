@@ -22,6 +22,7 @@ scoop install aria2
 scoop config aria2-enabled false
 scoop install git
 #scoop install hugo-extended
+#scoop install nodejs
 
 scoop bucket add yzlc https://github.com/yzlc/scoop
 scoop install aria2Conf
