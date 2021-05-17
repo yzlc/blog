@@ -42,6 +42,7 @@ scoop install mobaXterm
 scoop install tortoisesvn
 scoop install idea-ultimate
 scoop install anki
+#scoop install potplayer
 
 scoop bucket add java
 scoop install openjdk8-redhat
