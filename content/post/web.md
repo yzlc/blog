@@ -11,9 +11,6 @@ categories: [网站]
 &emsp;[樱花动漫](http://yhdm.tv)
 &emsp;[K哩K哩](https://klkl.tv)
 
-bt
-&emsp;[toxicer](https://www.toxicer.com)
-
 翻译
 &emsp;[谷歌](https://translate.google.cn)
 
@@ -27,10 +24,11 @@ bt
 &emsp;[leetcode](https://leetcode.com)
 &emsp;[github](https://github.com)
 
-java
-&emsp;[教程1](https://github.com/Snailclimb/JavaGuide)
-&emsp;[教程2](https://github.com/justjavac/free-programming-books-zh_CN)
-&emsp;[教程3](https://github.com/CyC2018/CS-Notes)
+JavaGuide
+&emsp;[Snailclimb](https://github.com/Snailclimb/JavaGuide)
+&emsp;[justjavac](https://github.com/justjavac/free-programming-books-zh_CN)
+&emsp;[CyC2018](https://github.com/CyC2018/CS-Notes)
+&emsp;[xingshaocheng](https://github.com/xingshaocheng/architect-awesome)
 
 工具
 &emsp;[搬瓦工](https://kiwivm.64clouds.com)
@@ -57,3 +55,10 @@ java
 音乐
 &emsp;[下载](http://tool.liumingye.cn/music/?page=searchPage)
 &emsp;[音乐标签](https://www.cnblogs.com/vinlxc/p/11347744.html)
+
+bt
+&emsp;[toxicer](https://www.toxicer.com)
+&emsp;[Trackers](https://github.com/XIU2/TrackersListCollection)
+
+qx
+&emsp;[sngxpro](https://github.com/sngxpro/QuanX)

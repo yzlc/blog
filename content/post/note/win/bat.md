@@ -6,9 +6,9 @@ categories: [note]
 ---
 
 ## 变量
+>ps>ls env:
 - 用户目录：`%UserProfile%`
 - 开机启动（用户）：`%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup`
-- 开机启动：`%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Startup`
 
 ## 删目录、文件
 ```bat
@@ -62,3 +62,13 @@ set https_proxy=socks5://localhost:10808
 echo %https_proxy%
 set https_proxy=
 ```
+
+### uwp
+```bat
+:C:\Users\%username%\AppData\Local\Packages
+CheckNetIsolation.exe LoopbackExempt -a -n="4DF9E0F8.Netflix_mcm4njqhnhss8"
+```
+
+## 休眠
+- 打开：`powercfg -h on`
+- 关闭：`powercfg -h off`

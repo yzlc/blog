@@ -42,3 +42,4 @@ categories: [软件]
 &emsp;[k2p](https://github.com/hanwckf/rt-n56u)
 &emsp;[罗技](https://download01.logi.com/web/ftp/pub/techsupport/gaming/LGS_9.02.65_x64_Logitech.exe)
 &emsp;[macOS](https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/)
+&emsp;[禁用Defender](https://www.sordum.org/files/download/d-control/dControl.zip)
