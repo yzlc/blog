@@ -10,10 +10,10 @@ categories: [配置]
 
 ## 注册
 product code：  
-`4vkjwhfeh3ufnqnmpr9brvcuyujrx3n3le`
+`ke4tv8t5jtxz493kl8s2nn3t6xgngcmgf3`
 
 serial Number：  
-`226959`
+`264452`
 
 password:  
 `xs374ca`

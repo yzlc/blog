@@ -26,12 +26,17 @@ scoop install git
 
 scoop bucket add yzlc https://github.com/yzlc/scoop
 scoop install aria2Conf
-scoop install tomcat7
+#scoop install tomcat7
+#scoop install tomcat9
 #scoop install battle
 #scoop install fortiClient
-
-scoop bucket add kkzzhizhou https://github.com/kkzzhizhou/scoop-zapps
-scoop install wechat
+#scoop install plsql
+#scoop install oracleClient
+#scoop install tim
+#scoop install wechat
+#scoop install lister
+#scoop install oraclejdk7
+#scoop install oraclejdk8
 #scoop install Charles
 #scoop install DingTalk
 
@@ -43,7 +48,10 @@ scoop install tortoisesvn
 scoop install idea-ultimate
 scoop install anki
 #scoop install potplayer
+#scoop install steam
+#scoop install rufus
 
-scoop bucket add java
-scoop install openjdk8-redhat
+#scoop bucket add java
+#scoop install openjdk8-redhat
+#scoop install openjdk7-unofficial
 ```
