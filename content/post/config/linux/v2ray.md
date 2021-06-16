@@ -41,9 +41,9 @@ categories: [配置]
 
 ## v2ray
 1. 安装  
-`bash <(curl -L -s https://install.direct/go.sh)`
+`curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh`
 2. 编辑配置  
-`vi /etc/v2ray/config.json`
+`vi /usr/local/etc/v2ray/config.json`
     ```json
     {
         "inbounds": [
@@ -76,5 +76,5 @@ categories: [配置]
     }
     ```
 - 命令
-    - `service v2ray start`
-    - `service v2ray status`
+    - `systemctl start v2ray`
+    - `systemctl status v2ray`
