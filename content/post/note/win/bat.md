@@ -72,3 +72,8 @@ CheckNetIsolation.exe LoopbackExempt -a -n="4DF9E0F8.Netflix_mcm4njqhnhss8"
 ## 休眠
 - 打开：`powercfg -h on`
 - 关闭：`powercfg -h off`
+
+## 定时关机
+```bat
+schtasks /create /tn shutWin10 /sc daily /st 17:00:00 /tr "shutdown -s -t 100"
+```
